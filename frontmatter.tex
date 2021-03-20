@@ -1,0 +1,43 @@
+% !TeX encoding = UTF-8
+% !TeX root = MAIN.tex
+
+	\ifeng \chapter*{Sworn Declaration}
+	I hereby declare under oath that the submitted thesis has been written solely by me without any third-party assistance, information other than provided sources or aids have not been used and those used have been fully documented. Sources for literal, paraphrased and cited quotes have been accurately credited.
+	
+	The submitted document here present is identical to the electronically submitted text document.
+	
+	\vskip1cm
+	\place, \date
+	
+	\else \chapter*{Eidesstattliche Erklärung}
+	Ich erkläre an Eides statt, dass ich die vorliegende Arbeit selbstständig und ohne fremde Hilfe verfasst, andere als die angegebenen Quellen und Hilfsmittel nicht benutzt bzw. die wörtlich oder sinngemäß entnommenen Stellen als solche kenntlich gemacht habe.
+
+	Die vorliegende Arbeit ist mit dem elektronisch übermittelten Textdokument identisch.
+	
+	\vskip1cm
+	\place, \date
+	\fi
+
+
+	\ifeng	\chapter*{Abstract}
+	\else	\chapter*{Kurzfassung}
+	\fi
+		
+%% Hier Abstact in der Sprache eingeben, in der die Arbeit geschrieben wurde.
+%% Enter here the abstract in the main language.
+
+The thesis aims at implementing an ECMAScript proposal from the TC39 proposals, the module blocks, into the existing Graal.js interpreter. Besides the initial task of changing the parser and the runtime and unit tests, the base framework for shipping code between processes is implemented and explicit benchmarks are shown. The final product contributes to the open source version of Graal.js on the platform github.com.
+
+	{\let\clearpage\relax
+	\ifeng	\selectlanguage{ngerman} \chapter*{Zusammenfassung}
+	\else	\selectlanguage{english} \chapter*{Abstract}
+	\fi
+		
+%% Hier Abstact in der jeweils anderen Sprache eingeben.
+%% Enter here the abtract in the other language.
+
+Die vorliegende Arbeit verfolgt das Ziel einen ECMAScript-Antrag aus den TC39-Anträgen, die module blocks, im vorliegenden Graal.js-Interpreter zu implementieren. Nach der Implementierung im Parser und der Runtime und entsprechenden Tests wird weiters ein Framework zum Übertragen von Code zwischen Prozessen eingerichtet und dessen Performance mit ursprünglichen Implementierungen verglichen. Die finale Implementierung wird über die Plattform github.com der Open-Source-Version von Graal.js hinzugefügt.
+
+	\ifeng	\selectlanguage{english}
+	\else 	\selectlanguage{ngerman}
+	\fi}
