@@ -9,14 +9,14 @@
 \contentsline {section}{\numberline {2.1}HLL-VMs}{3}{}%
 \contentsline {subsection}{\numberline {2.1.1}HLL-VM groundwork}{3}{}%
 \contentsline {subsection}{\numberline {2.1.2}The JVM}{4}{}%
-\contentsline {section}{\numberline {2.2}GraalVM}{6}{}%
-\contentsline {section}{\numberline {2.3}Truffle API}{6}{}%
-\contentsline {section}{\numberline {2.4}Graal.Js}{6}{}%
-\contentsline {section}{\numberline {2.5}ECMAScript modules}{6}{}%
-\contentsline {subsection}{\numberline {2.5.1}Current State}{6}{}%
-\contentsline {subsection}{\numberline {2.5.2}Proposal: Module blocks}{6}{}%
-\contentsline {chapter}{\numberline {3}Implementation}{7}{}%
-\contentsline {chapter}{\numberline {4}Evaluation}{8}{}%
-\contentsline {chapter}{\numberline {5}Future Work}{9}{}%
-\contentsline {chapter}{\numberline {6}Conclusions}{10}{}%
+\contentsline {section}{\numberline {2.2}GraalVM}{7}{}%
+\contentsline {section}{\numberline {2.3}Truffle API}{7}{}%
+\contentsline {section}{\numberline {2.4}Graal.Js}{7}{}%
+\contentsline {section}{\numberline {2.5}ECMAScript modules}{7}{}%
+\contentsline {subsection}{\numberline {2.5.1}Current State}{7}{}%
+\contentsline {subsection}{\numberline {2.5.2}Proposal: Module blocks}{7}{}%
+\contentsline {chapter}{\numberline {3}Implementation}{8}{}%
+\contentsline {chapter}{\numberline {4}Evaluation}{9}{}%
+\contentsline {chapter}{\numberline {5}Future Work}{10}{}%
+\contentsline {chapter}{\numberline {6}Conclusions}{11}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
