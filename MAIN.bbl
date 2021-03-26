@@ -19,27 +19,144 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{Taupin}{book}{}
-      \name{author}{1}{}{%
-        {{hash=ab12b6d75a2b3b18d7c435df8f0d9036}{%
-           family={Taupin},
-           familyi={T\bibinitperiod},
+    \entry{Gosling}{book}{}
+      \name{author}{7}{}{%
+        {{hash=2a798529b7edde2afc14297cab558b16}{%
+           family={Gosling},
+           familyi={G\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f09f99cecd6117983c930e722773ea8b}{%
+           family={Joy},
+           familyi={J\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod}}}%
+        {{hash=951391bf247c229328c01586aca90970}{%
+           family={Steele},
+           familyi={S\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=075676db46622d5a64b6ff1011b9b7d0}{%
+           family={Bracha},
+           familyi={B\bibinitperiod},
+           given={Gilad},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1c34391bfa51bee4b9dacbc295281374}{%
+           family={Buckley},
+           familyi={B\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=005dd718f3b829bab9e7e7714b3804a5}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=baa3dce4b5645d600c1aa4a8ea5aea7c}{%
+           family={Bierman},
+           familyi={B\bibinitperiod},
+           given={Gavin},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oracle America}%
+      }
+      \strng{namehash}{970a2e088d89b0caf7fa87b2fc653076}
+      \strng{fullhash}{c3ef53b18803d0ad980afdea3a399b86}
+      \strng{bibnamehash}{970a2e088d89b0caf7fa87b2fc653076}
+      \strng{authorbibnamehash}{970a2e088d89b0caf7fa87b2fc653076}
+      \strng{authornamehash}{970a2e088d89b0caf7fa87b2fc653076}
+      \strng{authorfullhash}{c3ef53b18803d0ad980afdea3a399b86}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{online}
+      \field{title}{The Java Language Specification Java SE 16 Edition}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://docs.oracle.com/javase/specs/jls/se16/jls16.pdf
+      \endverb
+      \verb{url}
+      \verb https://docs.oracle.com/javase/specs/jls/se16/jls16.pdf
+      \endverb
+    \endentry
+    \entry{Lindholm}{book}{}
+      \name{author}{5}{}{%
+        {{hash=efc7d9d3d26034142724398ad4b4467e}{%
+           family={Lindholm},
+           familyi={L\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b7f6c816ff8aadf3e93769013ec384bc}{%
+           family={Yellin},
+           familyi={Y\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=075676db46622d5a64b6ff1011b9b7d0}{%
+           family={Bracha},
+           familyi={B\bibinitperiod},
+           given={Gilad},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1c34391bfa51bee4b9dacbc295281374}{%
+           family={Buckley},
+           familyi={B\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=005dd718f3b829bab9e7e7714b3804a5}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
            given={Daniel},
            giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{ab12b6d75a2b3b18d7c435df8f0d9036}
-      \strng{fullhash}{ab12b6d75a2b3b18d7c435df8f0d9036}
-      \strng{bibnamehash}{ab12b6d75a2b3b18d7c435df8f0d9036}
-      \strng{authorbibnamehash}{ab12b6d75a2b3b18d7c435df8f0d9036}
-      \strng{authornamehash}{ab12b6d75a2b3b18d7c435df8f0d9036}
-      \strng{authorfullhash}{ab12b6d75a2b3b18d7c435df8f0d9036}
-      \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \list{publisher}{1}{%
+        {Oracle America}%
+      }
+      \strng{namehash}{9e2a4c38bd880568b88d56a17eae9f6e}
+      \strng{fullhash}{9aa06db3e856c512566e9e2591ea0199}
+      \strng{bibnamehash}{9e2a4c38bd880568b88d56a17eae9f6e}
+      \strng{authorbibnamehash}{9e2a4c38bd880568b88d56a17eae9f6e}
+      \strng{authornamehash}{9e2a4c38bd880568b88d56a17eae9f6e}
+      \strng{authorfullhash}{9aa06db3e856c512566e9e2591ea0199}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{1.30}
-      \field{title}{MusiX\TeX}
-      \field{year}{2020}
+      \field{howpublished}{online}
+      \field{title}{The Java Virtual Machine Specification Java SE 16 Edition}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://docs.oracle.com/javase/specs/jvms/se16/jvms16.pdf
+      \endverb
+      \verb{url}
+      \verb https://docs.oracle.com/javase/specs/jvms/se16/jvms16.pdf
+      \endverb
+    \endentry
+    \entry{Smith}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8b47eb5ad45408b648d676ed21620290}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={James\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam ; Boston}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann Publishers}%
+      }
+      \strng{namehash}{8b47eb5ad45408b648d676ed21620290}
+      \strng{fullhash}{8b47eb5ad45408b648d676ed21620290}
+      \strng{bibnamehash}{8b47eb5ad45408b648d676ed21620290}
+      \strng{authorbibnamehash}{8b47eb5ad45408b648d676ed21620290}
+      \strng{authornamehash}{8b47eb5ad45408b648d676ed21620290}
+      \strng{authorfullhash}{8b47eb5ad45408b648d676ed21620290}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Virtual machines :: versatile platforms for systems and processes}
+      \field{year}{2005}
     \endentry
   \enddatalist
 \endrefsection

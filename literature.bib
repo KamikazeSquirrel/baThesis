@@ -1,35 +1,46 @@
 % !TeX encoding = UTF-8
 % !TeX root = MAIN.tex
 
-	@Misc{key1,
-title       = {},
-author      = {},
-howpublished= {},
-month       = {},
-year        = {},
-note        = {},
+	@Book{Smith,
+title       = {Virtual machines :: versatile platforms for systems and processes},
+author      = {James E. Smith},
+publisher = {Morgan Kaufmann Publishers},
+address = {Amsterdam ; Boston},
+year        = {2005}
+}
+
+	@Book{Lindholm,
+title     	= {The Java Virtual Machine Specification Java SE 16 Edition},
+publisher 	= {Oracle America},
+year     	= {2021},
+howpublished = {online},
+author    	= {Tim Lindholm and Frank Yellin and Gilad Bracha and Alex Buckley and Daniel Smith},
+url = {https://docs.oracle.com/javase/specs/jvms/se16/jvms16.pdf}
 	}
 
-	@Book{Taupin,
-title     	= {MusiX\TeX},
-publisher 	= {},
-year     	= {2020},
-author    	= {Daniel Taupin},
-address   	= {},
-edition   	= {1.30},
-	}
-
-	@Booklet{key3,
-author		= {},
-title		= {},
-howpublished= {},
-month 		= {},
-year		= {},
+	@Book{Gosling,
+title 	= {The Java Language Specification Java SE 16 Edition},
+author		= {James Gosling and Bill Joy and Guy Steele and Gilad Bracha and Alex Buckley and Daniel Smith and Gavin Bierman},
+howpublished= {online},
+year		= {2021},
+publisher = {Oracle America},
+url = {https://docs.oracle.com/javase/specs/jls/se16/jls16.pdf}
 	}
 	
-	@online{key4,
-title 		= {},
-date 		= {},
-url 		= {},
-urldate 	= {},
-	}
+@inproceedings{10.1145/2509578.2509581,
+	author = {W\"{u}rthinger, Thomas and Wimmer, Christian and W\"{o}\ss{}, Andreas and Stadler, Lukas and Duboscq, Gilles and Humer, Christian and Richards, Gregor and Simon, Doug and Wolczko, Mario},
+	title = {One VM to Rule Them All},
+	year = {2013},
+	isbn = {9781450324724},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/2509578.2509581},
+	doi = {10.1145/2509578.2509581},
+	abstract = {Building high-performance virtual machines is a complex and expensive undertaking; many popular languages still have low-performance implementations. We describe a new approach to virtual machine (VM) construction that amortizes much of the effort in initial construction by allowing new languages to be implemented with modest additional effort. The approach relies on abstract syntax tree (AST) interpretation where a node can rewrite itself to a more specialized or more general node, together with an optimizing compiler that exploits the structure of the interpreter. The compiler uses speculative assumptions and deoptimization in order to produce efficient machine code. Our initial experience suggests that high performance is attainable while preserving a modular and layered architecture, and that new high-performance language implementations can be obtained by writing little more than a stylized interpreter.},
+	booktitle = {Proceedings of the 2013 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software},
+	pages = {187–204},
+	numpages = {18},
+	keywords = {dynamic languages, java, optimization, virtual machine, javascript, language implementation},
+	location = {Indianapolis, Indiana, USA},
+	series = {Onward! 2013}
+}
