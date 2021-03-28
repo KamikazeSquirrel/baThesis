@@ -19,6 +19,53 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{inproceedings}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=9beb85b0a57a13b4f5b99eca7eb43b95}{%
+           family={Duboscq},
+           familyi={D\bibinitperiod},
+           given={Gilles},
+           giveni={G\bibinitperiod}}}%
+        {{hash=78df41fcf458505802c1b397cf1abdec}{%
+           family={Stadler},
+           familyi={S\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3c46235450f6da5b7822325c3c42bebc}{%
+           family={Wuerthinger},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=397df975e6303956fdfe6d91d922945a}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Doug},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8c2db0ca51b05075294396c98cddfdbb}{%
+           family={Wimmer},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f5f5a59a43a5502876023c110d781762}{%
+           family={Mössenböck},
+           familyi={M\bibinitperiod},
+           given={Hanspeter},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4ac81341ddd89217ee7c4d19149a54f}
+      \strng{fullhash}{75437029342c1fdb0b84d84b738805d5}
+      \strng{bibnamehash}{b4ac81341ddd89217ee7c4d19149a54f}
+      \strng{authorbibnamehash}{b4ac81341ddd89217ee7c4d19149a54f}
+      \strng{authornamehash}{b4ac81341ddd89217ee7c4d19149a54f}
+      \strng{authorfullhash}{75437029342c1fdb0b84d84b738805d5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{02}
+      \field{title}{Graal IR: An Extensible Declarative Intermediate Representation}
+      \field{year}{2013}
+    \endentry
     \entry{Gosling}{book}{}
       \name{author}{7}{}{%
         {{hash=2a798529b7edde2afc14297cab558b16}{%
@@ -78,6 +125,45 @@
       \endverb
       \verb{url}
       \verb https://docs.oracle.com/javase/specs/jls/se16/jls16.pdf
+      \endverb
+    \endentry
+    \entry{ChambDeopt}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=531728f47c89524d0805ea3cedc9b049}{%
+           family={Hölzle},
+           familyi={H\bibinitperiod},
+           given={Urs},
+           giveni={U\bibinitperiod}}}%
+        {{hash=00b692b9ba70787b3d0ee3229fad1eb6}{%
+           family={Chambers},
+           familyi={C\bibinitperiod},
+           given={Craig},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d3efc54e3b56f22ac669afd21d02b4a0}{%
+           family={Ungar},
+           familyi={U\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ceac1452ed6fcc4fa9ec131a6f4007e}
+      \strng{fullhash}{3ceac1452ed6fcc4fa9ec131a6f4007e}
+      \strng{bibnamehash}{3ceac1452ed6fcc4fa9ec131a6f4007e}
+      \strng{authorbibnamehash}{3ceac1452ed6fcc4fa9ec131a6f4007e}
+      \strng{authornamehash}{3ceac1452ed6fcc4fa9ec131a6f4007e}
+      \strng{authorfullhash}{3ceac1452ed6fcc4fa9ec131a6f4007e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sigplan Notices - SIGPLAN}
+      \field{month}{07}
+      \field{title}{Debugging Optimized Code with Dynamic Deoptimization.}
+      \field{volume}{27}
+      \field{year}{1992}
+      \field{pages}{32\bibrangedash 43}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1145/143103.143114
       \endverb
     \endentry
     \entry{Lindholm}{book}{}

@@ -2350,6 +2350,8 @@
     <bcf:citekey order="1">Smith</bcf:citekey>
     <bcf:citekey order="2">Gosling</bcf:citekey>
     <bcf:citekey order="3">Lindholm</bcf:citekey>
+    <bcf:citekey order="4">inproceedings</bcf:citekey>
+    <bcf:citekey order="5">ChambDeopt</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

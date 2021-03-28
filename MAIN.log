@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.7)  26 MAR 2021 12:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.7)  28 MAR 2021 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1440,31 +1440,41 @@ Package pdftex.def Info: ../figures/JVM.png  used on input line 17.
 (pdftex.def)             Requested size: 337.85626pt x 413.13618pt.
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 40.
+Package pdftex.def Info: cover/jkuen.png  used on input line 44.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
 [4]
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 40.
+Package pdftex.def Info: cover/jkuen.png  used on input line 44.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
  [5 <../figures/JVM.png>]
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 40.
+Package pdftex.def Info: cover/jkuen.png  used on input line 44.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [6])
+ [6]
+File: cover/jkuen.png Graphic file (type png)
+<use cover/jkuen.png>
+Package pdftex.def Info: cover/jkuen.png  used on input line 44.
+(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
+ [7]
+File: cover/jkuen.png Graphic file (type png)
+<use cover/jkuen.png>
+Package pdftex.def Info: cover/jkuen.png  used on input line 48.
+(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
+ [8])
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 12.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [7]
+ [9]
 chapter 3.
 (./contents/03_Implementation.tex)
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 16.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [8
+ [10
 
 ]
 chapter 4.
@@ -1473,7 +1483,7 @@ File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 20.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [9
+ [11
 
 ]
 chapter 5.
@@ -1482,7 +1492,7 @@ File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 24.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [10
+ [12
 
 ]
 chapter 6.
@@ -1491,7 +1501,7 @@ File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 167.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [11
+ [13
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
@@ -1506,7 +1516,7 @@ File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 173.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
-[12
+[14
 
 
 ] (./MAIN.aux (./cover/coversheet.aux))
@@ -1515,10 +1525,10 @@ Package logreq Info: Writing requests to 'MAIN.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23918 strings out of 479023
- 482581 string characters out of 5863351
- 1414984 words of memory out of 5000000
- 40958 multiletter control sequences out of 15000+600000
+ 23928 strings out of 479023
+ 482842 string characters out of 5863351
+ 1420088 words of memory out of 5000000
+ 40968 multiletter control sequences out of 15000+600000
  484465 words of font info for 91 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  111i,23n,116p,10600b,2331s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1530,10 +1540,10 @@ to/Roboto-Bold.pfb><e:/texlive/2020/texmf-dist/fonts/type1/google/roboto/Roboto
 -Regular.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1095.p
 fb><e:/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><e:/texlive/
 2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on MAIN.pdf (18 pages, 304576 bytes).
+Output written on MAIN.pdf (20 pages, 315415 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
