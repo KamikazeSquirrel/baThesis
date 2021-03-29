@@ -127,6 +127,54 @@
       \verb https://docs.oracle.com/javase/specs/jls/se16/jls16.pdf
       \endverb
     \endentry
+    \entry{grimmerNative}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=29db9fc9f2f78c2e96bfebc4c12d0011}{%
+           family={Grimmer},
+           familyi={G\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=29f74b1f76db601f42523c79b65bd8ef}{%
+           family={Rigger},
+           familyi={R\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=78df41fcf458505802c1b397cf1abdec}{%
+           family={Stadler},
+           familyi={S\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7afd8bf3c19ce23afceee59f2b38aa71}{%
+           family={Schatz},
+           familyi={S\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f5f5a59a43a5502876023c110d781762}{%
+           family={Mössenböck},
+           familyi={M\bibinitperiod},
+           given={Hanspeter},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b8e6b5a73883ea9d3ba0c030988d118}
+      \strng{fullhash}{2cd146a75a7f735b880084fc85e76e64}
+      \strng{bibnamehash}{3b8e6b5a73883ea9d3ba0c030988d118}
+      \strng{authorbibnamehash}{3b8e6b5a73883ea9d3ba0c030988d118}
+      \strng{authornamehash}{3b8e6b5a73883ea9d3ba0c030988d118}
+      \strng{authorfullhash}{2cd146a75a7f735b880084fc85e76e64}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM International Conference Proceeding Series}
+      \field{month}{09}
+      \field{title}{An efficient native function interface for Java}
+      \field{year}{2013}
+      \field{pages}{35\bibrangedash 44}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2500828.2500832
+      \endverb
+    \endentry
     \entry{ChambDeopt}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=531728f47c89524d0805ea3cedc9b049}{%
@@ -243,6 +291,60 @@
       \field{labeltitlesource}{title}
       \field{title}{Virtual machines :: versatile platforms for systems and processes}
       \field{year}{2005}
+    \endentry
+    \entry{wuerthSelf}{article}{}
+      \name{author}{6}{}{%
+        {{hash=3c46235450f6da5b7822325c3c42bebc}{%
+           family={Wuerthinger},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b4b6c319e7c12eeca668a0586b57065e}{%
+           family={Wöß},
+           familyi={W\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=78df41fcf458505802c1b397cf1abdec}{%
+           family={Stadler},
+           familyi={S\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9beb85b0a57a13b4f5b99eca7eb43b95}{%
+           family={Duboscq},
+           familyi={D\bibinitperiod},
+           given={Gilles},
+           giveni={G\bibinitperiod}}}%
+        {{hash=397df975e6303956fdfe6d91d922945a}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Doug},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8c2db0ca51b05075294396c98cddfdbb}{%
+           family={Wimmer},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{41fb36ae155780bd962f1b03a82b6512}
+      \strng{fullhash}{a741f1b484483035709fc2bebc4b5adb}
+      \strng{bibnamehash}{41fb36ae155780bd962f1b03a82b6512}
+      \strng{authorbibnamehash}{41fb36ae155780bd962f1b03a82b6512}
+      \strng{authornamehash}{41fb36ae155780bd962f1b03a82b6512}
+      \strng{authorfullhash}{a741f1b484483035709fc2bebc4b5adb}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM SIGPLAN Notices}
+      \field{month}{01}
+      \field{title}{Self-optimizing AST interpreters}
+      \field{volume}{48}
+      \field{year}{2013}
+      \field{pages}{73\bibrangedash 82}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2480360.2384587
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
