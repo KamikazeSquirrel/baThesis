@@ -2347,14 +2347,19 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">literature.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Smith</bcf:citekey>
-    <bcf:citekey order="2">Gosling</bcf:citekey>
-    <bcf:citekey order="3">Lindholm</bcf:citekey>
-    <bcf:citekey order="4">inproceedings</bcf:citekey>
-    <bcf:citekey order="5">ChambDeopt</bcf:citekey>
-    <bcf:citekey order="6">Lindholm</bcf:citekey>
-    <bcf:citekey order="7">grimmerNative</bcf:citekey>
-    <bcf:citekey order="8">wuerthSelf</bcf:citekey>
+    <bcf:citekey order="2">Smith</bcf:citekey>
+    <bcf:citekey order="3">Gosling</bcf:citekey>
+    <bcf:citekey order="4">Lindholm</bcf:citekey>
+    <bcf:citekey order="5">inproceedings</bcf:citekey>
+    <bcf:citekey order="6">ChambDeopt</bcf:citekey>
+    <bcf:citekey order="7">Lindholm</bcf:citekey>
+    <bcf:citekey order="8">grimmerNative</bcf:citekey>
+    <bcf:citekey order="9">wuerthSelf</bcf:citekey>
+    <bcf:citekey order="10">VMRule</bcf:citekey>
+    <bcf:citekey order="11">VMRule</bcf:citekey>
+    <bcf:citekey order="12">ChambOpti</bcf:citekey>
+    <bcf:citekey order="13">FutaPart</bcf:citekey>
+    <bcf:citekey order="14">ChambDebug</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
