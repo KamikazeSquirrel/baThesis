@@ -1,5 +1,4 @@
-# baThesis
-Repository for bachelor thesis
+# Bachelor Thesis
 
 This repository is for my bachelor thesis with title "Contributing the ECMAScript proposal "Module blocks" into Graal.Js".
 
