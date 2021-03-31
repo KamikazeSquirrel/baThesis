@@ -66,6 +66,39 @@
       \field{title}{Graal IR: An Extensible Declarative Intermediate Representation}
       \field{year}{2013}
     \endentry
+    \entry{gitMB}{online}{}
+      \name{author}{2}{}{%
+        {{hash=72ecda610ae336ef013e399afc2297d8}{%
+           family={Ehrenberg},
+           familyi={E\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bd00cd0424c3234faa2715ed8aec629a}{%
+           family={Surma},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf3cc962e3ee979a63f61edf6e4df0ac}
+      \strng{fullhash}{bf3cc962e3ee979a63f61edf6e4df0ac}
+      \strng{bibnamehash}{bf3cc962e3ee979a63f61edf6e4df0ac}
+      \strng{authorbibnamehash}{bf3cc962e3ee979a63f61edf6e4df0ac}
+      \strng{authornamehash}{bf3cc962e3ee979a63f61edf6e4df0ac}
+      \strng{authorfullhash}{bf3cc962e3ee979a63f61edf6e4df0ac}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{JS Module Blocks}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/tc39/proposal-js-module-blocks
+      \endverb
+      \verb{url}
+      \verb https://github.com/tc39/proposal-js-module-blocks
+      \endverb
+    \endentry
     \entry{FutaPart}{article}{}
       \name{author}{1}{}{%
         {{hash=824830d5e22ffd263259e91aaf8d6fce}{%
@@ -218,6 +251,46 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1145/2500828.2500832
+      \endverb
+    \endentry
+    \entry{ecma}{online}{}
+      \name{editor}{3}{}{%
+        {{hash=051db1635b5ff82e2607bba600ab76c5}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Shu-yu},
+           giveni={S\bibinithyphendelim y\bibinitperiod}}}%
+        {{hash=e9dd3320ea06539feae411c9159a7795}{%
+           family={Ficarra},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5c9916a0163244b7483b7a280d2224b9}{%
+           family={Gibbons},
+           familyi={G\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{3587fa92a2a2e2bda0ce3a6401fc4321}
+      \strng{fullhash}{3587fa92a2a2e2bda0ce3a6401fc4321}
+      \strng{bibnamehash}{3587fa92a2a2e2bda0ce3a6401fc4321}
+      \strng{editorbibnamehash}{3587fa92a2a2e2bda0ce3a6401fc4321}
+      \strng{editornamehash}{3587fa92a2a2e2bda0ce3a6401fc4321}
+      \strng{editorfullhash}{3587fa92a2a2e2bda0ce3a6401fc4321}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{ECMAScript 2022 Language Specification}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://tc39.es/ecma262/
+      \endverb
+      \verb{url}
+      \verb https://tc39.es/ecma262/
       \endverb
     \endentry
     \entry{gitTC}{online}{}

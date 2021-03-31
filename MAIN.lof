@@ -9,6 +9,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The Java Virtual Machine simplified structure}}{5}{}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The Graal Virtual Machine simplified structure}}{9}{}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Simplified Node Rewriting example \cite {VMRule}}}{11}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Syntax of Module Blocks and ES6 Modules \cite {gitMB, ecma}}}{14}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

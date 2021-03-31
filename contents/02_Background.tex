@@ -108,4 +108,9 @@ As modules have to be loaded and are sometimes scattered throughout the web, def
 This standard unfortunately left out the possibility to add inline modules into a script which results in modules just containing one exported function. This results into unnecessary files which could be avoided by inlining the module into the original script. This exact feature is discussed in the next section.
 
 \subsection{Proposal: Module blocks}
-
+Module blocks are a TC39 stage 2 proposal from Daniel Ehrenberg and Surma. \cite{gitMB} As stated ECMAScript does not have the feature of inlining modules. This cause several issues in programming applications, most notably code composition and file count. In the current state if code should be run in parallel an additional file is needed resulting in every Worker needing a separate file. So module blocks work like a module but are inside the script where they are also imported. One important note to take is the non closure of module blocks following the principle of coding in one place, running it anywhere. It can thus also be imported from any Realm and is code independent of a particular context. So in a sense module blocks are mainly a syntactical addition to ECMAScript as the concept is to provide a syntax for inlined module contents. These can then afterwards be imported asynchronously. Reason being the ability of module blocks to import other modules as well. As regular modules since ES6 module blocks will be cached in the module map after the first import. One note to take is, that module blocks need to be imported via dynamic import() calls rather than import statements. This is due to them not being addressable as specifier strings.\\
+\begin{figure}
+	\includegraphics[scale=0.165]{../figures/ModuleSyntax.png}
+	\caption{Syntax of Module Blocks and ES6 Modules \cite{gitMB, ecma}}
+	\label{fig:mbSyn}
+\end{figure}
