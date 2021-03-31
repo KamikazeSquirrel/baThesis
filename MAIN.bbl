@@ -156,6 +156,22 @@
       \verb https://docs.oracle.com/javase/specs/jls/se16/jls16.pdf
       \endverb
     \endentry
+    \entry{Graaljs}{online}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{title}{GraalVM JavaScript Implementation}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.graalvm.org/reference-manual/js/
+      \endverb
+      \verb{url}
+      \verb https://www.graalvm.org/reference-manual/js/
+      \endverb
+    \endentry
     \entry{grimmerNative}{inproceedings}{}
       \name{author}{5}{}{%
         {{hash=29db9fc9f2f78c2e96bfebc4c12d0011}{%
@@ -204,6 +220,38 @@
       \verb 10.1145/2500828.2500832
       \endverb
     \endentry
+    \entry{gitTC}{online}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=042d60913855dac35cd5c59b2e91ee0e}{%
+           family={Harband},
+           familyi={H\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1134d022b4a4b4096bc518068409c289}
+      \strng{fullhash}{1134d022b4a4b4096bc518068409c289}
+      \strng{bibnamehash}{1134d022b4a4b4096bc518068409c289}
+      \strng{authorbibnamehash}{1134d022b4a4b4096bc518068409c289}
+      \strng{authornamehash}{1134d022b4a4b4096bc518068409c289}
+      \strng{authorfullhash}{1134d022b4a4b4096bc518068409c289}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ECMAScript proposals}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/tc39/proposals
+      \endverb
+      \verb{url}
+      \verb https://github.com/tc39/proposals
+      \endverb
+    \endentry
     \entry{ChambDeopt}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=531728f47c89524d0805ea3cedc9b049}{%
@@ -244,7 +292,7 @@
       \verb 10.1145/143103.143114
       \endverb
     \endentry
-    \entry{ChambDebug}{inproceedings}{}
+    \entry{ChambOpti}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=531728f47c89524d0805ea3cedc9b049}{%
            family={Hölzle},
@@ -273,46 +321,6 @@
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Sigplan Notices - SIGPLAN}
-      \field{month}{07}
-      \field{title}{Debugging Optimized Code with Dynamic Deoptimization.}
-      \field{volume}{27}
-      \field{year}{1992}
-      \field{pages}{32\bibrangedash 43}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1145/143103.143114
-      \endverb
-    \endentry
-    \entry{ChambOpti}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=531728f47c89524d0805ea3cedc9b049}{%
-           family={Hölzle},
-           familyi={H\bibinitperiod},
-           given={Urs},
-           giveni={U\bibinitperiod}}}%
-        {{hash=00b692b9ba70787b3d0ee3229fad1eb6}{%
-           family={Chambers},
-           familyi={C\bibinitperiod},
-           given={Craig},
-           giveni={C\bibinitperiod}}}%
-        {{hash=d3efc54e3b56f22ac669afd21d02b4a0}{%
-           family={Ungar},
-           familyi={U\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{3ceac1452ed6fcc4fa9ec131a6f4007e}
-      \strng{fullhash}{3ceac1452ed6fcc4fa9ec131a6f4007e}
-      \strng{bibnamehash}{3ceac1452ed6fcc4fa9ec131a6f4007e}
-      \strng{authorbibnamehash}{3ceac1452ed6fcc4fa9ec131a6f4007e}
-      \strng{authornamehash}{3ceac1452ed6fcc4fa9ec131a6f4007e}
-      \strng{authorfullhash}{3ceac1452ed6fcc4fa9ec131a6f4007e}
-      \field{extraname}{3}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
       \field{isbn}{3-540-54262-0}
       \field{month}{07}
       \field{title}{Optimizing Dynamically-Typed Object-Oriented Languages With Polymorphic Inline Caches.}
@@ -321,6 +329,96 @@
       \range{pages}{18}
       \verb{doi}
       \verb 10.1007/BFb0057013
+      \endverb
+    \endentry
+    \entry{GraaljsComp}{online}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeltitlesource}{title}
+      \field{title}{JavaScript Compatibility}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.graalvm.org/reference-manual/js /JavaScriptCompatibility/
+      \endverb
+      \verb{url}
+      \verb https://www.graalvm.org/reference-manual/js%20/JavaScriptCompatibility/
+      \endverb
+    \endentry
+    \entry{kangax1}{online}{}
+      \name{author}{3}{}{%
+        {{hash=dcaaae6dc6e7e7afe689c873a825f0d1}{%
+           family={Kangax},
+           familyi={K\bibinitperiod}}}%
+        {{hash=baec2db4418617824183979c367098ec}{%
+           family={Webbedspace},
+           familyi={W\bibinitperiod}}}%
+        {{hash=c9bcfeda79ab4efd25e1907f5f67a492}{%
+           family={Pushkarev},
+           familyi={P\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{88b1239b27dfc2c0db7d962bbdcf3b00}
+      \strng{fullhash}{88b1239b27dfc2c0db7d962bbdcf3b00}
+      \strng{bibnamehash}{88b1239b27dfc2c0db7d962bbdcf3b00}
+      \strng{authorbibnamehash}{88b1239b27dfc2c0db7d962bbdcf3b00}
+      \strng{authornamehash}{88b1239b27dfc2c0db7d962bbdcf3b00}
+      \strng{authorfullhash}{88b1239b27dfc2c0db7d962bbdcf3b00}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ECMAScript compatibility table}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb kangax.github.io/compat-table/es2016plus
+      \endverb
+      \verb{url}
+      \verb kangax.github.io/compat-table/es2016plus
+      \endverb
+    \endentry
+    \entry{kangax2}{online}{}
+      \name{author}{3}{}{%
+        {{hash=dcaaae6dc6e7e7afe689c873a825f0d1}{%
+           family={Kangax},
+           familyi={K\bibinitperiod}}}%
+        {{hash=baec2db4418617824183979c367098ec}{%
+           family={Webbedspace},
+           familyi={W\bibinitperiod}}}%
+        {{hash=c9bcfeda79ab4efd25e1907f5f67a492}{%
+           family={Pushkarev},
+           familyi={P\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{88b1239b27dfc2c0db7d962bbdcf3b00}
+      \strng{fullhash}{88b1239b27dfc2c0db7d962bbdcf3b00}
+      \strng{bibnamehash}{88b1239b27dfc2c0db7d962bbdcf3b00}
+      \strng{authorbibnamehash}{88b1239b27dfc2c0db7d962bbdcf3b00}
+      \strng{authornamehash}{88b1239b27dfc2c0db7d962bbdcf3b00}
+      \strng{authorfullhash}{88b1239b27dfc2c0db7d962bbdcf3b00}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ECMAScript compatibility table}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb kangax.github.io/compat-table/esnext
+      \endverb
+      \verb{url}
+      \verb kangax.github.io/compat-table/esnext
       \endverb
     \endentry
     \entry{Lindholm}{book}{}

@@ -14,10 +14,10 @@
 \contentsline {subsection}{\numberline {2.2.2}Truffle API}{10}{}%
 \contentsline {section}{\numberline {2.3}Graal.Js}{12}{}%
 \contentsline {section}{\numberline {2.4}ECMAScript modules}{12}{}%
-\contentsline {subsection}{\numberline {2.4.1}Current State}{12}{}%
-\contentsline {subsection}{\numberline {2.4.2}Proposal: Module blocks}{12}{}%
-\contentsline {chapter}{\numberline {3}Implementation}{13}{}%
-\contentsline {chapter}{\numberline {4}Evaluation}{14}{}%
-\contentsline {chapter}{\numberline {5}Future Work}{15}{}%
-\contentsline {chapter}{\numberline {6}Conclusions}{16}{}%
+\contentsline {subsection}{\numberline {2.4.1}Current State}{13}{}%
+\contentsline {subsection}{\numberline {2.4.2}Proposal: Module blocks}{13}{}%
+\contentsline {chapter}{\numberline {3}Implementation}{14}{}%
+\contentsline {chapter}{\numberline {4}Evaluation}{15}{}%
+\contentsline {chapter}{\numberline {5}Future Work}{16}{}%
+\contentsline {chapter}{\numberline {6}Conclusions}{17}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

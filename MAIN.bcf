@@ -2359,7 +2359,12 @@
     <bcf:citekey order="11">VMRule</bcf:citekey>
     <bcf:citekey order="12">ChambOpti</bcf:citekey>
     <bcf:citekey order="13">FutaPart</bcf:citekey>
-    <bcf:citekey order="14">ChambDebug</bcf:citekey>
+    <bcf:citekey order="14">ChambDeopt</bcf:citekey>
+    <bcf:citekey order="15">kangax1</bcf:citekey>
+    <bcf:citekey order="15">GraaljsComp</bcf:citekey>
+    <bcf:citekey order="16">kangax2</bcf:citekey>
+    <bcf:citekey order="16">gitTC</bcf:citekey>
+    <bcf:citekey order="17">Graaljs</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
