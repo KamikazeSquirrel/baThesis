@@ -10,12 +10,11 @@
 \contentsline {subsection}{\numberline {2.1.1}HLL-VM groundwork}{3}{}%
 \contentsline {subsection}{\numberline {2.1.2}The JVM}{4}{}%
 \contentsline {section}{\numberline {2.2}GraalVM}{8}{}%
-\contentsline {subsection}{\numberline {2.2.1}Graal Compiler}{10}{}%
+\contentsline {subsection}{\numberline {2.2.1}GraalVM Compiler}{10}{}%
 \contentsline {subsection}{\numberline {2.2.2}Truffle API}{10}{}%
-\contentsline {section}{\numberline {2.3}Graal.Js}{12}{}%
-\contentsline {section}{\numberline {2.4}ECMAScript modules}{12}{}%
-\contentsline {subsection}{\numberline {2.4.1}Current State}{13}{}%
-\contentsline {subsection}{\numberline {2.4.2}Proposal: Module blocks}{14}{}%
+\contentsline {section}{\numberline {2.3}Graal.js}{12}{}%
+\contentsline {section}{\numberline {2.4}ECMAScript modules - Current state}{12}{}%
+\contentsline {section}{\numberline {2.5}Proposal: Module blocks}{14}{}%
 \contentsline {chapter}{\numberline {3}Implementation}{15}{}%
 \contentsline {chapter}{\numberline {4}Evaluation}{16}{}%
 \contentsline {chapter}{\numberline {5}Future Work}{17}{}%

@@ -2347,29 +2347,30 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">literature.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="3">Smith</bcf:citekey>
-    <bcf:citekey order="4">Gosling</bcf:citekey>
-    <bcf:citekey order="5">Lindholm</bcf:citekey>
-    <bcf:citekey order="6">inproceedings</bcf:citekey>
-    <bcf:citekey order="7">ChambDeopt</bcf:citekey>
-    <bcf:citekey order="8">Lindholm</bcf:citekey>
-    <bcf:citekey order="9">grimmerNative</bcf:citekey>
-    <bcf:citekey order="10">wuerthSelf</bcf:citekey>
+    <bcf:citekey order="1">pypl</bcf:citekey>
+    <bcf:citekey order="2">Smith</bcf:citekey>
+    <bcf:citekey order="3">Gosling</bcf:citekey>
+    <bcf:citekey order="4">Lindholm</bcf:citekey>
+    <bcf:citekey order="5">inproceedings</bcf:citekey>
+    <bcf:citekey order="6">ChambDeopt</bcf:citekey>
+    <bcf:citekey order="7">Lindholm</bcf:citekey>
+    <bcf:citekey order="8">grimmerNative</bcf:citekey>
+    <bcf:citekey order="9">wuerthSelf</bcf:citekey>
+    <bcf:citekey order="10">VMRule</bcf:citekey>
     <bcf:citekey order="11">VMRule</bcf:citekey>
-    <bcf:citekey order="12">VMRule</bcf:citekey>
-    <bcf:citekey order="13">ChambOpti</bcf:citekey>
-    <bcf:citekey order="14">FutaPart</bcf:citekey>
-    <bcf:citekey order="15">ChambDeopt</bcf:citekey>
-    <bcf:citekey order="16">kangax1</bcf:citekey>
-    <bcf:citekey order="16">GraaljsComp</bcf:citekey>
-    <bcf:citekey order="17">kangax2</bcf:citekey>
-    <bcf:citekey order="17">gitTC</bcf:citekey>
-    <bcf:citekey order="18">Graaljs</bcf:citekey>
+    <bcf:citekey order="12">ChambOpti</bcf:citekey>
+    <bcf:citekey order="13">FutaPart</bcf:citekey>
+    <bcf:citekey order="14">ChambDeopt</bcf:citekey>
+    <bcf:citekey order="15">kangax1</bcf:citekey>
+    <bcf:citekey order="15">GraaljsComp</bcf:citekey>
+    <bcf:citekey order="16">kangax2</bcf:citekey>
+    <bcf:citekey order="16">gitTC</bcf:citekey>
+    <bcf:citekey order="17">Graaljs</bcf:citekey>
+    <bcf:citekey order="18">gitMB</bcf:citekey>
     <bcf:citekey order="19">gitMB</bcf:citekey>
+    <bcf:citekey order="19">ecma</bcf:citekey>
     <bcf:citekey order="20">gitMB</bcf:citekey>
     <bcf:citekey order="20">ecma</bcf:citekey>
-    <bcf:citekey order="21">gitMB</bcf:citekey>
-    <bcf:citekey order="21">ecma</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -19,6 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{pypl}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bd493fcefd6ae3eee8905b34f25193bc}{%
+           family={Carbonnelle},
+           familyi={C\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd493fcefd6ae3eee8905b34f25193bc}
+      \strng{fullhash}{bd493fcefd6ae3eee8905b34f25193bc}
+      \strng{bibnamehash}{bd493fcefd6ae3eee8905b34f25193bc}
+      \strng{authorbibnamehash}{bd493fcefd6ae3eee8905b34f25193bc}
+      \strng{authornamehash}{bd493fcefd6ae3eee8905b34f25193bc}
+      \strng{authorfullhash}{bd493fcefd6ae3eee8905b34f25193bc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{urlday}{3}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://pypl.github.io/PYPL.html
+      \endverb
+      \verb{url}
+      \verb https://pypl.github.io/PYPL.html
+      \endverb
+    \endentry
     \entry{inproceedings}{inproceedings}{}
       \name{author}{6}{}{%
         {{hash=9beb85b0a57a13b4f5b99eca7eb43b95}{%
@@ -638,7 +666,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Building high-performance virtual machines is a complex and expensive undertaking; many popular languages still have low-performance implementations. We describe a new approach to virtual machine (VM) construction that amortizes much of the effort in initial construction by allowing new languages to be implemented with modest additional effort. The approach relies on abstract syntax tree (AST) interpretation where a node can rewrite itself to a more specialized or more general node, together with an optimizing compiler that exploits the structure of the interpreter. The compiler uses speculative assumptions and deoptimization in order to produce efficient machine code. Our initial experience suggests that high performance is attainable while preserving a modular and layered architecture, and that new high-performance language implementations can be obtained by writing little more than a stylized interpreter.}
-      \field{booktitle}{Proceedings of the 2013 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software}
+      \field{booktitle}{Proceedings of the 2013 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming \& Software}
       \field{isbn}{9781450324724}
       \field{series}{Onward! 2013}
       \field{title}{One VM to Rule Them All}
