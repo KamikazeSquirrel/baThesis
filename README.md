@@ -1,12 +1,12 @@
 # Bachelor Thesis
 
-This repository is for my bachelor thesis with title "Contributing the ECMAScript proposal "Module blocks" into Graal.Js".
+This repository is for my bachelor thesis with title "Contributing the ECMAScript proposal "Module blocks" to Graal.Js".
 
-Current state is first drafts of the theoretical part.
+Current state is first draft of the whole thesis missing serialization.
 
 ## Reading
 
-To read the thesis click on MAIN.pdf and it should open your browser.
+To read the thesis click on MAIN.pdf and it should open inside your browser.
 
 ## Technologies
 
