@@ -1,0 +1,105 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Chapter 1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Chapter 2
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Module blocks
+Problem space:
+Problem for APIs which require separate files --> two problems arise: DX hurdle \& bundlers (want to put as much as possible in 1 file)
+Problem for APIs, published and get via CDN: different origin --> affecting how resources are resolved
+These problems lead to workarounds causing issues in performance, security and further limitations.
+Examples: - Avoidance of the unergonomic designed Web Workers --> sacrifice main thread responsiveness over complexity of moving long-running work to a worker (parallelism is avoided)
+- APIs with abstracted workers need stringification and blobification violating CSP (Content Security Policy) because of the reliance on eval and problems on paths (data URLS and blob URLs are considered to be on a different host)
+- Any Worklet (CSS Painting API) similar --> resort to workarounds or need extensive per-Bundler guidance
+
+long-standing problem: JavaScript cannot represent a "task" in a way that can be shared across realms without dealing with at least one of the above problems. Prevented building of a scheduler for the web (like GCD) to go beyond the main thread.
+
+Solution space: significantly improve the situation with the introduction of one, minimally invasive addition to the language and its integration into the HTML standard.
+
+High-level:
+Module blocks are syntax for the contents of a module, which can then be imported.
+Importing a module block needs to be async, as module blocks may import other modules, which are fetched from the network. Module blocks may get imported multiple times, but will get cached in the module map and will return a reference to the same module.
+
+Module blocks are only imported through dynamic import() statements and noth through import statements, as there is no way to address them as a specifier string.
+
+Relative import statements are resolved against with the path of the declaring module. This is especially important when sending module blocks to a worker.
+
+Should be reiterated in implementation:
+
+Syntax details:
+
+PrimaryExpression : InlineModuleExpression
+
+InlineModuleExpression : module [no LineTerminator here] \{ Module \}
+
+As module is not a keyword in JavaScript, no newline is permitted between module and \{.
+
+4 main integration points in HTML spec:
+	- Worker constructor: new Worker(path) --> new Worker(module {})
+	- Worklets: .addModule(module) --> .addModule(module {})
+	- Structured cloneable  so they can be sent via postMessage()
+	- import.meta (inherited from the module the module block is syntactically located in)
+	
+Realm interaction:
+
+module blocks behave like module specifiers, they are independent of the realm where they exist, and they cannot close over any lexically scoped variable outside of the module, they just close over the realm in which they're imported. (Integration with Realm proposal to permit syntactically local code to be executed in the context of the module)
+
+Use with workers:
+
+runa module Worker with module blocks and postMessage a module block to a worker.
+
+storage of module blocks in IndexedDB debatable because of security risks caused by persistent code.
+
+Integration with CSP:
+	-	turn off eval --> retrieved by fetch like regular modules, parsed in syntax with the surrounding JavaScript code --> hence no vector for injection attacks
+	- restrict the set of URLs allowed for sources, disabling importing data URLs, the source list restriction is then applied to modules. The semantics of module blocks are basically equivalent to data: URLS, with the distinction that they would always be considered in the sources list (since it's part of a resource that was already loaded as script)
+	
+Optimization potential:
+	- module blocks just as optimizable as normal modules that are imported multiple times. in some engines, bytecode for a module block only needs to be generated once, even when imported multiple times in different Realms with type feedback and JIT-optimized code should probably be maintained separately for each Realm where the module block is imported, or one module's use would pollute another.
+    
+Support in tools:
+    transpiled to either data URLs, or to a module in a separate file. Either transformation preserves semantics.
+    
+Named modules and bundling
+    Proposal only allows anonymous module blocks, other proposals for named module bundles with URLs corresponding to the specifier of each JS module
+    
+    Can you reference values outside the module block? No. Just like a separate file containing a ES module, you can only reference the global scope and import other modules.
+    
+    Yes you can statically import other modules.
+    No abbreviation is set yet, probably not planned as designers think that module blocks will often have static imports and thus cannot be abbreviated properly. The usage patterns will be looked upon and then a decision for a shorthand syntax might be found --> import-free-single-function module blocks might become a frequently recurring pattern, a module block shorthand seems like a good idea to add.
+    
+Module blocks like regular modules should only be executed once.
+
+import.meta.url not fixed yet. To make unique cache keys the import.meta.url of the module the module block is reciding in is used with an added # and the line and column numbers of the "m" of the word "module" in the following format:
+    url#LX+CX+
+This matter will be resolved when the proposal reaches stage 3. Until then the matter is solved in this way.
+
+Module block is a global (error just with constructor) maybe x instanceof ModuleBlock might be allowed.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Chapter 3
+
+Syntax details:
+
+PrimaryExpression : InlineModuleExpression
+
+InlineModuleExpression : module [no LineTerminator here] \{ Module \}
+
+As module is not a keyword in JavaScript, no newline is permitted between module and \{.
+
+Realm interaction:
+
+module blocks behave like module specifiers, they are independent of the realm where they exist, and they cannot close over any lexically scoped variable outside of the module, they just close over the realm in which they're imported. (Integration with Realm proposal to permit syntactically local code to be executed in the context of the module)
+
+import.meta.url not fixed yet. To make unique cache keys the import.meta.url of the module the module block is reciding in is used with an added # and the line and column numbers of the "m" of the word "module" in the following format:
+url#LX+CX+
+This matter will be resolved when the proposal reaches stage 3. Until then the matter is solved in this way.
+
+Module blocks like regular modules should only be executed once.
+
+ModuleBlock Constructor not enabled just throws TypeError, to prevent the construct to become an eval-like object.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Chapter 4

@@ -6,17 +6,22 @@
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {chapter}{\numberline {2}Background}{3}{}%
-\contentsline {section}{\numberline {2.1}HLL-VMs}{3}{}%
-\contentsline {subsection}{\numberline {2.1.1}HLL-VM groundwork}{3}{}%
-\contentsline {subsection}{\numberline {2.1.2}The JVM}{4}{}%
-\contentsline {section}{\numberline {2.2}GraalVM}{8}{}%
+\contentsline {section}{\numberline {2.1}High-Level language virtual machines}{3}{}%
+\contentsline {subsection}{\numberline {2.1.1}Groundwork}{3}{}%
+\contentsline {subsection}{\numberline {2.1.2}The Java Virtual Machine}{4}{}%
+\contentsline {section}{\numberline {2.2}GraalVM}{9}{}%
 \contentsline {subsection}{\numberline {2.2.1}GraalVM Compiler}{10}{}%
-\contentsline {subsection}{\numberline {2.2.2}Truffle API}{10}{}%
-\contentsline {section}{\numberline {2.3}Graal.js}{12}{}%
-\contentsline {section}{\numberline {2.4}ECMAScript modules - Current state}{12}{}%
-\contentsline {section}{\numberline {2.5}Proposal: Module blocks}{14}{}%
-\contentsline {chapter}{\numberline {3}Implementation}{15}{}%
-\contentsline {chapter}{\numberline {4}Evaluation}{16}{}%
-\contentsline {chapter}{\numberline {5}Future Work}{17}{}%
-\contentsline {chapter}{\numberline {6}Conclusions}{18}{}%
+\contentsline {subsection}{\numberline {2.2.2}Truffle API}{11}{}%
+\contentsline {section}{\numberline {2.3}Graal.js}{13}{}%
+\contentsline {section}{\numberline {2.4}ECMAScript \& the current state of modules}{13}{}%
+\contentsline {section}{\numberline {2.5}Proposal: Module blocks}{15}{}%
+\contentsline {chapter}{\numberline {3}Implementation}{17}{}%
+\contentsline {section}{\numberline {3.1}General overview}{17}{}%
+\contentsline {section}{\numberline {3.2}Parser}{18}{}%
+\contentsline {section}{\numberline {3.3}ModuleBlockNode: module block's Truffle AST representative}{19}{}%
+\contentsline {section}{\numberline {3.4}ModuleBlock prototype and constructor}{19}{}%
+\contentsline {section}{\numberline {3.5}Interaction with dynamic import}{20}{}%
+\contentsline {chapter}{\numberline {4}Evaluation}{22}{}%
+\contentsline {chapter}{\numberline {5}Future Work}{25}{}%
+\contentsline {chapter}{\numberline {6}Conclusions}{27}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

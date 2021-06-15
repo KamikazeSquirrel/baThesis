@@ -6,12 +6,21 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The Java Virtual Machine simplified structure}}{5}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The Graal Virtual Machine simplified structure}}{9}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Simplified Node Rewriting example \cite {VMRule}}}{11}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Syntax of Module Blocks and ES6 Modules \cite {gitMB, ecma}}}{14}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The Java Virtual Machine simplified structure}}{6}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The Graal Virtual Machine simplified structure}}{10}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Simplified Node Rewriting example}}{11}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces JavaScript addition types minimal example}}{12}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Syntax of Module Blocks and ES6 Modules}}{15}{}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Code evaluation by Graal.js}}{18}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Minimal module identifier example in JavaScript}}{19}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces ModuleBlock working as global in JavaScript}}{20}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Simplified GraalJS translation pipeline of module blocks and modules}}{21}{}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Module block syntax tests}}{22}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Module block constructor and prototype tests}}{23}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Module block general test example cases}}{23}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Module block dynamic import test}}{24}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

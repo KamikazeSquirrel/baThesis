@@ -94,6 +94,22 @@
       \field{title}{Graal IR: An Extensible Declarative Intermediate Representation}
       \field{year}{2013}
     \endentry
+    \entry{ecmaTestSpec}{online}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{title}{ECMA-414}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ecma-international.org/publications-and-standards/standards/ecma-414/
+      \endverb
+      \verb{url}
+      \verb https://www.ecma-international.org/publications-and-standards/standards/ecma-414/
+      \endverb
+    \endentry
     \entry{gitMB}{online}{}
       \name{author}{2}{}{%
         {{hash=72ecda610ae336ef013e399afc2297d8}{%
@@ -154,6 +170,22 @@
       \range{pages}{11}
       \verb{doi}
       \verb 10.1023/A:1010095604496
+      \endverb
+    \endentry
+    \entry{graalVMStart}{online}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{title}{Get started with GraalVM}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.graalvm.org/docs/getting-started/
+      \endverb
+      \verb{url}
+      \verb https://www.graalvm.org/docs/getting-started/
       \endverb
     \endentry
     \entry{Gosling}{book}{}
@@ -231,6 +263,22 @@
       \endverb
       \verb{url}
       \verb https://www.graalvm.org/reference-manual/js/
+      \endverb
+    \endentry
+    \entry{graalVMNative}{online}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{title}{GraalVM Native Image}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.graalvm.org/reference-manual/native-image/
+      \endverb
+      \verb{url}
+      \verb https://www.graalvm.org/reference-manual/native-image/
       \endverb
     \endentry
     \entry{grimmerNative}{inproceedings}{}
@@ -432,6 +480,22 @@
       \verb 10.1007/BFb0057013
       \endverb
     \endentry
+    \entry{graalVMIntro}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to GraalVM}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.graalvm.org/docs/introduction/
+      \endverb
+      \verb{url}
+      \verb https://www.graalvm.org/docs/introduction/
+      \endverb
+    \endentry
     \entry{GraaljsComp}{online}{}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
@@ -600,6 +664,85 @@
       \field{title}{Virtual machines :: versatile platforms for systems and processes}
       \field{year}{2005}
     \endentry
+    \entry{ecmaTest262}{online}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{title}{Test262: ECMAScript Test Suite}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/tc39/test262
+      \endverb
+      \verb{url}
+      \verb https://github.com/tc39/test262
+      \endverb
+    \endentry
+    \entry{ecmaProp}{online}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{title}{The TC39 Process}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://tc39.es/process-document/
+      \endverb
+      \verb{url}
+      \verb https://tc39.es/process-document/
+      \endverb
+    \endentry
+    \entry{10.1145/3386327}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c92e78bde228ffae8b931f5e2ded0369}{%
+           family={Wirfs-Brock},
+           familyi={W\bibinithyphendelim B\bibinitperiod},
+           given={Allen},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c669ae39e4262fb31a4df5b29bc678ae}{%
+           family={Eich},
+           familyi={E\bibinitperiod},
+           given={Brendan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{ad837e01c1ea7cd5ec06863c390035ff}
+      \strng{fullhash}{ad837e01c1ea7cd5ec06863c390035ff}
+      \strng{bibnamehash}{ad837e01c1ea7cd5ec06863c390035ff}
+      \strng{authorbibnamehash}{ad837e01c1ea7cd5ec06863c390035ff}
+      \strng{authornamehash}{ad837e01c1ea7cd5ec06863c390035ff}
+      \strng{authorfullhash}{ad837e01c1ea7cd5ec06863c390035ff}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{How a sidekick scripting language for Java, created at Netscape in a ten-day hack, ships first as a de facto Web standard and eventually becomes the world's most widely used programming language. This paper tells the story of the creation, design, evolution, and standardization of the JavaScript language over the period of 1995--2015. But the story is not only about the technical details of the language. It is also the story of how people and organizations competed and collaborated to shape the JavaScript language which dominates the Web of 2020.}
+      \field{journaltitle}{Proc. ACM Program. Lang.}
+      \field{month}{6}
+      \field{number}{HOPL}
+      \field{title}{JavaScript: The First 20 Years}
+      \field{volume}{4}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1145/3386327
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3386327
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3386327
+      \endverb
+      \keyw{JavaScript,Standards,Browser game theory,Web browsers,History of programming languages,ECMAScript}
+    \endentry
     \entry{VMRule}{inproceedings}{}
       \name{author}{9}{}{%
         {{hash=3aa2c0d9773991c0a3d3c73d42a36cda}{%
@@ -740,6 +883,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{Lindhom}
 \endrefsection
 \endinput
 
