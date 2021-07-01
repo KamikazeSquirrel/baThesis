@@ -5,23 +5,29 @@
 \babel@toc {ngerman}{}
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
-\contentsline {chapter}{\numberline {2}Background}{3}{}%
-\contentsline {section}{\numberline {2.1}High-Level language virtual machines}{3}{}%
-\contentsline {subsection}{\numberline {2.1.1}Groundwork}{3}{}%
-\contentsline {subsection}{\numberline {2.1.2}The Java Virtual Machine}{4}{}%
-\contentsline {section}{\numberline {2.2}GraalVM}{9}{}%
-\contentsline {subsection}{\numberline {2.2.1}GraalVM Compiler}{10}{}%
-\contentsline {subsection}{\numberline {2.2.2}Truffle API}{11}{}%
-\contentsline {section}{\numberline {2.3}Graal.js}{13}{}%
-\contentsline {section}{\numberline {2.4}ECMAScript \& the current state of modules}{13}{}%
-\contentsline {section}{\numberline {2.5}Proposal: Module blocks}{15}{}%
-\contentsline {chapter}{\numberline {3}Implementation}{17}{}%
-\contentsline {section}{\numberline {3.1}General overview}{17}{}%
-\contentsline {section}{\numberline {3.2}Parser}{18}{}%
-\contentsline {section}{\numberline {3.3}ModuleBlockNode: module block's Truffle AST representative}{19}{}%
-\contentsline {section}{\numberline {3.4}ModuleBlock prototype and constructor}{19}{}%
-\contentsline {section}{\numberline {3.5}Interaction with dynamic import}{20}{}%
-\contentsline {chapter}{\numberline {4}Evaluation}{22}{}%
-\contentsline {chapter}{\numberline {5}Future Work}{25}{}%
-\contentsline {chapter}{\numberline {6}Conclusions}{27}{}%
+\contentsline {chapter}{\numberline {2}Background}{4}{}%
+\contentsline {section}{\numberline {2.1}High-Level language virtual machines}{4}{}%
+\contentsline {subsection}{\numberline {2.1.1}Groundwork}{4}{}%
+\contentsline {subsection}{\numberline {2.1.2}The Java Virtual Machine}{5}{}%
+\contentsline {subsubsection}{\nonumberline Class Loader Subsystem}{6}{}%
+\contentsline {subsubsection}{\nonumberline Runtime Data Area}{8}{}%
+\contentsline {subsubsection}{\nonumberline Execution Engine}{9}{}%
+\contentsline {section}{\numberline {2.2}GraalVM}{10}{}%
+\contentsline {subsection}{\numberline {2.2.1}GraalVM Compiler}{11}{}%
+\contentsline {subsection}{\numberline {2.2.2}Truffle API}{12}{}%
+\contentsline {section}{\numberline {2.3}Graal.js}{14}{}%
+\contentsline {section}{\numberline {2.4}ECMAScript \& the current state of modules}{15}{}%
+\contentsline {section}{\numberline {2.5}ECMAScript proposal process}{16}{}%
+\contentsline {section}{\numberline {2.6}Proposal: Module blocks}{17}{}%
+\contentsline {chapter}{\numberline {3}Implementation}{18}{}%
+\contentsline {section}{\numberline {3.1}General overview}{18}{}%
+\contentsline {section}{\numberline {3.2}Parser}{19}{}%
+\contentsline {section}{\numberline {3.3}ModuleBlockNode: Module Blocks' Truffle AST representative}{20}{}%
+\contentsline {section}{\numberline {3.4}ModuleBlock prototype and constructor}{20}{}%
+\contentsline {section}{\numberline {3.5}Interaction with dynamic import}{21}{}%
+\contentsline {section}{\numberline {3.6}Serialization framework}{21}{}%
+\contentsline {section}{\numberline {3.7}Wrap up}{22}{}%
+\contentsline {chapter}{\numberline {4}Evaluation}{24}{}%
+\contentsline {chapter}{\numberline {5}Future Work}{27}{}%
+\contentsline {chapter}{\numberline {6}Conclusions}{29}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

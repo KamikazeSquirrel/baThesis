@@ -1,17 +1,15 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'MAIN.blg'
-[177] biber-MSWIN32:340> INFO - === 
-[238] Biber.pm:415> INFO - Reading 'MAIN.bcf'
-[430] Biber.pm:952> INFO - Found 26 citekeys in bib section 0
-[459] Biber.pm:4340> INFO - Processing section 0
-[479] Biber.pm:4531> INFO - Looking for bibtex format file 'literature.bib' for section 0
-[599] bibtex.pm:1689> INFO - LaTeX decoding ...
-[657] bibtex.pm:1494> INFO - Found BibTeX data source 'literature.bib'
-[941] Utils.pm:395> WARN - I didn't find a database entry for 'Lindhom' (section 0)
-[991] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[991] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[991] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[991] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1027] bbl.pm:654> INFO - Writing 'MAIN.bbl' with encoding 'UTF-8'
-[1044] bbl.pm:757> INFO - Output to MAIN.bbl
-[1044] Biber.pm:128> INFO - WARNINGS: 1
+[290] biber-MSWIN32:340> INFO - === 
+[402] Biber.pm:415> INFO - Reading 'MAIN.bcf'
+[601] Biber.pm:952> INFO - Found 27 citekeys in bib section 0
+[625] Biber.pm:4340> INFO - Processing section 0
+[675] Biber.pm:4531> INFO - Looking for bibtex format file 'literature.bib' for section 0
+[783] bibtex.pm:1689> INFO - LaTeX decoding ...
+[834] bibtex.pm:1494> INFO - Found BibTeX data source 'literature.bib'
+[1155] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1155] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1155] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[1155] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1228] bbl.pm:654> INFO - Writing 'MAIN.bbl' with encoding 'UTF-8'
+[1245] bbl.pm:757> INFO - Output to MAIN.bbl

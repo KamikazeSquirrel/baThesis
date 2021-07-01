@@ -4,8 +4,7 @@ The Test262 suite combines the three ecma standards ECMA-262, ECMAScript Languag
 
 The main orientation for designing tests regarding the module block proposal came from the available basic specification. While it is not finished yet, the parts of the specification that could be implemented can also be tested. First of, the syntactic part of the specification can already pose different testing scenarios.
 
-\begin{figure}[h!]
-    \begin{lstlisting}
+    \begin{lstlisting}[caption={Module block syntax tests}, label={fig:testSyntax}]
         var module = 42;
         
         var nextModule = module;
@@ -15,32 +14,24 @@ The main orientation for designing tests regarding the module block proposal cam
         var failingModuleBlock = module
             { };
     \end{lstlisting}
-\caption{Module block syntax tests}
-\label{fig:testSyntax}
-\end{figure}
 
-The first syntactic specialty is the fact that "module", while acting as a keyword in the scope of module blocks, won't be added to the keywords group in ECMAScript. The consequences are random variables being used with "module" as identifier are allowed and line delimiters between "module" and the "\{" are forbidden. Since the ModuleBody part of the module block syntax  is optional an empty module like in line three of figure \ref{fig:testSyntax}. This concludes the three testing cases for the syntax. Next up are tests regarding the prototype and the constructor.
+The first syntactic specialty is the fact that "module", while acting as a keyword in the scope of module blocks, won't be added to the keywords group in ECMAScript. The consequences are random variables being used with "module" as identifier are allowed and line delimiters between \texttt{module} and the \texttt{\{} are forbidden. Since the \texttt{ModuleBody} part of the module block syntax  is optional an empty module like in line three of Listing \ref{fig:testSyntax}. This concludes the three testing cases for the syntax. Next up are tests regarding the prototype and the constructor.
 
-The constructor of module blocks basically doesn't have to exist as it simply should throw a TypeError. The decision during implementation was made that it actually is implemented but when called throws the specified error. Still it doesn't change the expected behavior and thus a simple call to the constructor is made and expects the aforementioned error. Testing the prototype requires more elaborate testing since multiple aspects need to be checked. Those regard especially the prototype property of the module block prototype object itself but also the module block prototype property. The described tests are conducted by source code similar to figure \ref{fig:testCoPro}.
+The constructor of module blocks basically doesn't have to exist as it simply should throw a \texttt{TypeError}. The decision during implementation was made that it actually is implemented but when called throws the specified error. Still it doesn't change the expected behavior and thus a simple call to the constructor is made and expects the aforementioned error. Testing the prototype requires more elaborate testing since multiple aspects need to be checked. Those regard especially the prototype property of the module block prototype object itself but also the module block prototype property. The described tests are conducted by source code similar to Listing \ref{fig:testCoPro}.
 
-\begin{figure}[h!]
-    \begin{lstlisting}
+    \begin{lstlisting}[caption={Module block constructor and prototype tests}, label={fig:testCoPro}]
         var constructorModuleBlock = new ModuleBlock(); // TypeError: ModuleBlock is not a constructor
         
         var moduleBlock = module { };
         
         var instanceTest = moduleBlock instanceof ModuleBlock; // true
         
-        var moduleBlockPrototype = moduleBlock.prototype; // object
+        var moduleBlockPrototype = moduleBlock.constructor.prototype; // object
     \end{lstlisting}
-    \caption{Module block constructor and prototype tests}
-    \label{fig:testCoPro}
-\end{figure}
 
-The following tests mainly regard the module blocks interaction with different ECMAScript constructs inside of the module block, in particular the optional syntax part ModuleBody, and its interaction with the dynamic import. The interaction with existing ECMAScript structures is straightforward as all of them have to be used inside a module block as part of the ModuleBody to some extent. The following figure \ref{fig:testGeneral} list some example cases with a simple number variable, a function and an async function.
+The following tests mainly regard the module blocks interaction with different ECMAScript constructs inside of the module block, in particular the optional syntax part \texttt{ModuleBody}, and its interaction with the dynamic import. The interaction with existing ECMAScript structures is straightforward as all of them have to be used inside a module block as part of the \texttt{ModuleBody} to some extent. The following Listing \ref{fig:testGeneral} list some example cases with a simple number variable, a function and an async function.
 
-\begin{figure}[h!]
-    \begin{lstlisting}
+    \begin{lstlisting}[caption={Module block general test example cases}, label={fig:testGeneral}]
         var moduleBlock = module { export var x = 42; }; // export number
         
         var moduleBlockFunc = module { export function square(x) {
@@ -62,16 +53,12 @@ The following tests mainly regard the module blocks interaction with different E
             export var resolved = asyncCall(); 
         }; // export promise
     \end{lstlisting}
-    \caption{Module block general test example cases}
-    \label{fig:testGeneral}
-\end{figure}
 
 A particular case that should also be noted as it raised interest during the proposal presentation is the ability to bundle module imports into a module block which was also tested extensively with importing modules in the different possible ways and also importing module blocks. The specialties of module block imports are explained in the next bit.
 
-Module blocks can only be imported dynamically with awaits. Since top level awaits are not supported dynamic imports have to be encapsulated in async functions. Hence imported module block module records are encapsulated in a promise and have to be processed in a then-environment. Figure \ref{fig:testImp} shows the exact syntax needed for importing the module block.
+Module blocks can only be imported dynamically with awaits. Since top level awaits are not supported dynamic imports have to be encapsulated in async functions. Hence imported module block module records are encapsulated in a promise and have to be processed in a then-environment. Listing \ref{fig:testImp} shows the exact syntax needed for importing the module block.
 
-\begin{figure}[h!]
-    \begin{lstlisting}
+    \begin{lstlisting}[caption={Module block dynamic import test}, label={fig:testImp}]
         var test = (async function() {
             var moduleBlock = module { export var x = 42; }; // export number
             
@@ -82,8 +69,5 @@ Module blocks can only be imported dynamically with awaits. Since top level awai
             console.log("Module block x: " + module.x);  // Module block x: 42
         });
     \end{lstlisting}
-    \caption{Module block dynamic import test}
-    \label{fig:testImp}
-\end{figure}
 
 In conclusion adding a new feature into an engine for ECMAScript requires extensive testing. First of the general preexisting test suite Test262 has to be applied to the changed semantics and have to pass. Then all intricacies of the proposal's specification have to be tested. Although the proposal is a rather syntactic one it still introduces semantics which have to be tested. Next up after all internals are checked the interaction with preexisting ECMAScript structures needs to take place which furthers the extensiveness of testing.

@@ -637,6 +637,52 @@
       \verb https://docs.oracle.com/javase/specs/jvms/se16/jvms16.pdf
       \endverb
     \endentry
+    \entry{graalTwitter}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c306145d439e50189a17fc3785614329}{%
+           family={Möbus},
+           familyi={M\bibinitperiod},
+           given={Maika},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c306145d439e50189a17fc3785614329}
+      \strng{fullhash}{c306145d439e50189a17fc3785614329}
+      \strng{bibnamehash}{c306145d439e50189a17fc3785614329}
+      \strng{authorbibnamehash}{c306145d439e50189a17fc3785614329}
+      \strng{authornamehash}{c306145d439e50189a17fc3785614329}
+      \strng{authorfullhash}{c306145d439e50189a17fc3785614329}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GraalVM: Clearing up confusion around the term and why Twitter uses it in production}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://jaxenter.com/graalvm-chris-thalinger-interview-163074.html
+      \endverb
+      \verb{url}
+      \verb https://jaxenter.com/graalvm-chris-thalinger-interview-163074.html
+      \endverb
+    \endentry
+    \entry{pCode}{online}{}
+      \field{sortinit}{p}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{title}{p-System Operating System manual}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.sageandstride.org/html/manuals.html
+      \endverb
+      \verb{url}
+      \verb http://www.sageandstride.org/html/manuals.html
+      \endverb
+    \endentry
     \entry{Smith}{book}{}
       \name{author}{1}{}{%
         {{hash=8b47eb5ad45408b648d676ed21620290}{%
@@ -696,6 +742,22 @@
       \verb https://tc39.es/process-document/
       \endverb
     \endentry
+    \entry{workers}{online}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeltitlesource}{title}
+      \field{title}{Using Web Workers}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+      \endverb
+    \endentry
     \entry{10.1145/3386327}{article}{}
       \name{author}{2}{}{%
         {{hash=c92e78bde228ffae8b931f5e2ded0369}{%
@@ -743,90 +805,6 @@
       \endverb
       \keyw{JavaScript,Standards,Browser game theory,Web browsers,History of programming languages,ECMAScript}
     \endentry
-    \entry{VMRule}{inproceedings}{}
-      \name{author}{9}{}{%
-        {{hash=3aa2c0d9773991c0a3d3c73d42a36cda}{%
-           family={Würthinger},
-           familyi={W\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
-        {{hash=8c2db0ca51b05075294396c98cddfdbb}{%
-           family={Wimmer},
-           familyi={W\bibinitperiod},
-           given={Christian},
-           giveni={C\bibinitperiod}}}%
-        {{hash=b4b6c319e7c12eeca668a0586b57065e}{%
-           family={Wöß},
-           familyi={W\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod}}}%
-        {{hash=78df41fcf458505802c1b397cf1abdec}{%
-           family={Stadler},
-           familyi={S\bibinitperiod},
-           given={Lukas},
-           giveni={L\bibinitperiod}}}%
-        {{hash=9beb85b0a57a13b4f5b99eca7eb43b95}{%
-           family={Duboscq},
-           familyi={D\bibinitperiod},
-           given={Gilles},
-           giveni={G\bibinitperiod}}}%
-        {{hash=8408c24c20b08b48e20de6a79f38fb36}{%
-           family={Humer},
-           familyi={H\bibinitperiod},
-           given={Christian},
-           giveni={C\bibinitperiod}}}%
-        {{hash=8a028b4bbe1417d29155a74d201c33d8}{%
-           family={Richards},
-           familyi={R\bibinitperiod},
-           given={Gregor},
-           giveni={G\bibinitperiod}}}%
-        {{hash=397df975e6303956fdfe6d91d922945a}{%
-           family={Simon},
-           familyi={S\bibinitperiod},
-           given={Doug},
-           giveni={D\bibinitperiod}}}%
-        {{hash=9deee94d8274d90a6cfa8a9681d5f1e7}{%
-           family={Wolczko},
-           familyi={W\bibinitperiod},
-           given={Mario},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Indianapolis, Indiana, USA}%
-      }
-      \list{publisher}{1}{%
-        {Association for Computing Machinery}%
-      }
-      \strng{namehash}{59a48b11841af0b9c88a5929e71e4b02}
-      \strng{fullhash}{615e24b8ade5b2cd5acb7bd527a84822}
-      \strng{bibnamehash}{59a48b11841af0b9c88a5929e71e4b02}
-      \strng{authorbibnamehash}{59a48b11841af0b9c88a5929e71e4b02}
-      \strng{authornamehash}{59a48b11841af0b9c88a5929e71e4b02}
-      \strng{authorfullhash}{615e24b8ade5b2cd5acb7bd527a84822}
-      \field{extraname}{1}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Building high-performance virtual machines is a complex and expensive undertaking; many popular languages still have low-performance implementations. We describe a new approach to virtual machine (VM) construction that amortizes much of the effort in initial construction by allowing new languages to be implemented with modest additional effort. The approach relies on abstract syntax tree (AST) interpretation where a node can rewrite itself to a more specialized or more general node, together with an optimizing compiler that exploits the structure of the interpreter. The compiler uses speculative assumptions and deoptimization in order to produce efficient machine code. Our initial experience suggests that high performance is attainable while preserving a modular and layered architecture, and that new high-performance language implementations can be obtained by writing little more than a stylized interpreter.}
-      \field{booktitle}{Proceedings of the 2013 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming \& Software}
-      \field{isbn}{9781450324724}
-      \field{series}{Onward! 2013}
-      \field{title}{One VM to Rule Them All}
-      \field{year}{2013}
-      \field{pages}{187\bibrangedash 204}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1145/2509578.2509581
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/2509578.2509581
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/2509578.2509581
-      \endverb
-      \keyw{dynamic languages,java,optimization,virtual machine,javascript,language implementation}
-    \endentry
     \entry{wuerthSelf}{article}{}
       \name{author}{6}{}{%
         {{hash=3aa2c0d9773991c0a3d3c73d42a36cda}{%
@@ -866,7 +844,6 @@
       \strng{authorbibnamehash}{59a48b11841af0b9c88a5929e71e4b02}
       \strng{authornamehash}{59a48b11841af0b9c88a5929e71e4b02}
       \strng{authorfullhash}{476986ff36705a860a371306bdaefa4b}
-      \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
@@ -883,7 +860,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Lindhom}
 \endrefsection
 \endinput
 

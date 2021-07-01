@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.7)  14 JUN 2021 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.7)  1 JUL 2021 20:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1125,18 +1125,9 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'MAIN.bbl' found.
- (./MAIN.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Lindhom
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (./MAIN.bbl)
 Package biblatex Info: Reference section=0 on input line 184.
 Package biblatex Info: Reference segment=0 on input line 184.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1335,19 +1326,23 @@ Overfull \vbox (28.39096pt too high) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (13.25142pt too wide) in paragraph at lines 39--40
-\T1/ppl/m/n/10.95 die Platt-form github.com der Open-Source-Version von Graal.j
-s hin-zu-ge-fügt. 
+Overfull \hbox (5.62846pt too wide) in paragraph at lines 43--44
+\T1/ppl/m/n/10.95 Lauf-zeit-um-ge-bun-gen wie der V8 von Goo-gle oder Spi-der-M
+on-key von Mo-zil-la mes-sen. Das Graal.Js-
  []
 
-)
+File: cover/jkuen.png Graphic file (type png)
+<use cover/jkuen.png>
+Package pdftex.def Info: cover/jkuen.png  used on input line 44.
+(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
+[2
+
+])
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 198.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [2
-
-] (./MAIN.toc)
+ [3] (./MAIN.toc)
 \tf@toc=\write4
 \openout4 = `MAIN.toc'.
 
@@ -1355,7 +1350,7 @@ File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 203.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [3
+ [4
 
 ] (./mainmatter.tex
 chapter 1.
@@ -1375,14 +1370,14 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface.
 
 (./contents/01_Introduction.tex
-Overfull \hbox (20.35132pt too wide) in paragraph at lines 3--4
-[]\T1/ppl/m/n/10.95 ECMAScript is the stan-dard-ized ver-sion of the fa-mous in
--ter-net front-end script-ing lan-guage JavaScript.
+Overfull \hbox (25.61357pt too wide) in paragraph at lines 5--6
+\T1/ppl/m/n/10.95 up into sin-gle projects for each lan-guage. This setup leads
+ to the project Graal.js. 
  []
 
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 8.
+Package pdftex.def Info: cover/jkuen.png  used on input line 6.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
 [1
 
@@ -1393,6 +1388,11 @@ File: cover/jkuen.png Graphic file (type png)
 Package pdftex.def Info: cover/jkuen.png  used on input line 8.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
  [2]
+File: cover/jkuen.png Graphic file (type png)
+<use cover/jkuen.png>
+Package pdftex.def Info: cover/jkuen.png  used on input line 8.
+(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
+ [3]
 chapter 2.
 (./contents/02_Background.tex
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
@@ -1400,212 +1400,234 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
 (Font)              scaled to size 14.4pt on input line 3.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 4.
+(Font)              `T1/Roboto-LF/bold/n' on input line 6.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 4.
-File: cover/jkuen.png Graphic file (type png)
-<use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 11.
-(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [3
+(Font)              scaled to size 12.0pt on input line 6.
 
-]
-Overfull \hbox (29.70866pt too wide) in paragraph at lines 11--12
-\T1/ppl/m/n/10.95 The de-tails of the par-tic-u-lar en-vi-ron-ment are sub-ject
- to the up-com-ing dis-cus-sion. 
+Overfull \hbox (40.49538pt too wide) in paragraph at lines 9--10
+\T1/ppl/m/n/10.95 stands out as a huge ac-com-plish-ment but HLL-VMs come with 
+even more fea-tures. 
  []
 
+File: cover/jkuen.png Graphic file (type png)
+<use cover/jkuen.png>
+Package pdftex.def Info: cover/jkuen.png  used on input line 10.
+(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
+[4
+
+]
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 19.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
-[4]
-<../figures/JVM.png, id=39, 1689.31125pt x 2065.7175pt>
-File: ../figures/JVM.png Graphic file (type png)
-<use ../figures/JVM.png>
-Package pdftex.def Info: ../figures/JVM.png  used on input line 23.
-(pdftex.def)             Requested size: 337.85626pt x 413.13618pt.
-File: cover/jkuen.png Graphic file (type png)
-<use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 38.
-(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
  [5]
-File: cover/jkuen.png Graphic file (type png)
-<use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 38.
-(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [6 <../figures/JVM.png>]
-Overfull \hbox (36.33278pt too wide) in paragraph at lines 41--42
-\T1/ppl/m/n/10.95 any time be-tween cre-ation and ini-tial-iza-tion but im-per-
-a-tively be-fore ini-tial-iza-tion. 
- []
+<figures/JVM.png, id=44, 405.4347pt x 495.7722pt>
+File: figures/JVM.png Graphic file (type png)
+<use figures/JVM.png>
+Package pdftex.def Info: figures/JVM.png  used on input line 24.
+(pdftex.def)             Requested size: 324.34819pt x 396.61829pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 47.
+Package pdftex.def Info: cover/jkuen.png  used on input line 41.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
-[7]
+[6]
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 60.
+Package pdftex.def Info: cover/jkuen.png  used on input line 43.
+(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
+ [7 <./figures/JVM.png>]
+File: cover/jkuen.png Graphic file (type png)
+<use cover/jkuen.png>
+Package pdftex.def Info: cover/jkuen.png  used on input line 53.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
  [8]
-<../figures/GraalVM.png, id=53, 1749.53625pt x 1719.42375pt>
-File: ../figures/GraalVM.png Graphic file (type png)
-<use ../figures/GraalVM.png>
-Package pdftex.def Info: ../figures/GraalVM.png  used on input line 70.
-(pdftex.def)             Requested size: 349.90105pt x 343.87866pt.
+File: cover/jkuen.png Graphic file (type png)
+<use cover/jkuen.png>
+Package pdftex.def Info: cover/jkuen.png  used on input line 67.
+(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
+ [9]
+<figures/GraalVM.png, id=59, 419.8887pt x 376.5267pt>
+File: figures/GraalVM.png Graphic file (type png)
+<use figures/GraalVM.png>
+Package pdftex.def Info: figures/GraalVM.png  used on input line 78.
+(pdftex.def)             Requested size: 335.91142pt x 301.22176pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 76.
+Package pdftex.def Info: cover/jkuen.png  used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
-[9]
+[10]
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 78.
+Package pdftex.def Info: cover/jkuen.png  used on input line 86.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [10 <../figures/GraalVM.png>]
-<../figures/NodeJIT.png, id=62, 2794.44pt x 834.11626pt>
-File: ../figures/NodeJIT.png Graphic file (type png)
-<use ../figures/NodeJIT.png>
-Package pdftex.def Info: ../figures/NodeJIT.png  used on input line 84.
-(pdftex.def)             Requested size: 461.06271pt x 137.62325pt.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
-3.
+ [11 <./figures/GraalVM.png>]
+<figures/NodeJIT.png, id=67, 670.6656pt x 200.1879pt>
+File: figures/NodeJIT.png Graphic file (type png)
+<use figures/NodeJIT.png>
+Package pdftex.def Info: figures/NodeJIT.png  used on input line 93.
+(pdftex.def)             Requested size: 469.4627pt x 140.13055pt.
+
+
+LaTeX Warning: Reference `:trufNR' on page 12 undefined on input line 98.
+
+File: cover/jkuen.png Graphic file (type png)
+<use cover/jkuen.png>
+Package pdftex.def Info: cover/jkuen.png  used on input line 102.
+(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
+[12 <./figures/NodeJIT.png>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+03.
 
 (e:/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 94.
-
-Overfull \hbox (28.69113pt too wide) in paragraph at lines 91--107
-\T1/ppl/m/n/10.95 can de-cide on which op-er-a-tion to use, an ad-di-tion for n
-um-bers or one for strings. 
- []
-
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 104.
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 107.
-(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
-[11 <../figures/NodeJIT.png>]
-File: cover/jkuen.png Graphic file (type png)
-<use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 117.
-(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [12]
-File: cover/jkuen.png Graphic file (type png)
-<use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 140.
+Package pdftex.def Info: cover/jkuen.png  used on input line 121.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
  [13]
-Overfull \hbox (30.13605pt too wide) in paragraph at lines 145--146
+File: cover/jkuen.png Graphic file (type png)
+<use cover/jkuen.png>
+Package pdftex.def Info: cover/jkuen.png  used on input line 144.
+(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
+ [14]
+File: cover/jkuen.png Graphic file (type png)
+<use cover/jkuen.png>
+Package pdftex.def Info: cover/jkuen.png  used on input line 151.
+(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
+ [15]
+Overfull \hbox (30.13605pt too wide) in paragraph at lines 151--152
 \T1/ppl/m/it/10.95 port \T1/ppl/m/n/10.95 ei-ther the whole mod-ule or ex-plic-
 itly named items which can also be aliased. 
  []
 
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 151.
+Package pdftex.def Info: cover/jkuen.png  used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
-[14]
-<figures/ModuleSyntax.png, id=77, 1752.5475pt x 906.38625pt>
+[16]
+<figures/ModuleSyntax.png, id=88, 1752.5475pt x 906.38625pt>
 File: figures/ModuleSyntax.png Graphic file (type png)
 <use figures/ModuleSyntax.png>
-Package pdftex.def Info: figures/ModuleSyntax.png  used on input line 155.
+Package pdftex.def Info: figures/ModuleSyntax.png  used on input line 165.
 (pdftex.def)             Requested size: 289.15785pt x 149.54727pt.
-File: cover/jkuen.png Graphic file (type png)
-<use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 161.
-(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [15 <./figures/ModuleSyntax.png>])
+)
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 12.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [16]
+ [17 <./figures/ModuleSyntax.png>]
 chapter 3.
 (./contents/03_Implementation.tex
-<figures/implMain.png, id=86, 2414.01875pt x 1560.83125pt>
+Overfull \hbox (12.85693pt too wide) in paragraph at lines 4--5
+\T1/ppl/m/n/10.95 specifics of in-ter-pre-ta-tion and com-pi-la-tion dur-ing ex
+-e-cu-tion see Sec-tion 2.2.1[]. 
+ []
+
+<figures/implMain.png, id=93, 2414.01875pt x 1560.83125pt>
 File: figures/implMain.png Graphic file (type png)
 <use figures/implMain.png>
-Package pdftex.def Info: figures/implMain.png  used on input line 5.
+Package pdftex.def Info: figures/implMain.png  used on input line 8.
 (pdftex.def)             Requested size: 398.29591pt x 257.52605pt.
 
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (38.31563pt too wide) in paragraph at lines 10--11
+Overfull \hbox (21.47453pt too wide) in paragraph at lines 13--14
 \T1/ppl/m/n/10.95 and the pro-to-type.The spe-cific parser changes are ex-plain
-ed in the next para-graph. 
+ed in the next sec-tion. 
  []
 
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 12.
+Package pdftex.def Info: cover/jkuen.png  used on input line 15.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
-[17
+[18
 
 ]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 25.
+Package pdftex.def Info: cover/jkuen.png  used on input line 27.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
-[18 <./figures/implMain.png>]
-Overfull \hbox (22.4972pt too wide) in paragraph at lines 33--35
-\T1/ppl/m/n/10.95 dard in the Ec-maScript spec-i-fi-ca-tion. The mod-ule block 
-Pro-to-type Ob-ject is %Mod-ule-Block.prototype%.
+ [19 <./figures/implMain.png>]
+Overfull \hbox (106.72957pt too wide) in paragraph at lines 30--31
+\T1/ppl/m/n/10.95 cludes the im-ple-men-ta-tion of the mod-ule block it-self by
+ in-tro-duc-ing the mod-ule block pro-to-type. 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Reference `lst:impl:globModule' on page 20 undefined on input li
+ne 33.
+
+
+Overfull \hbox (25.55582pt too wide) in paragraph at lines 32--34
+\T1/ppl/m/n/10.95 dard in the EC-MAScript spec-i-fi-ca-tion. The mod-ule block 
+Pro-to-type Ob-ject is \T1/cmtt/m/n/10.95 %ModuleBlock.prototype%\T1/ppl/m/n/10
+.95 .
+ []
+
+
+Overfull \hbox (17.80142pt too wide) in paragraph at lines 32--34
+\T1/cmtt/m/n/10.95 ModuleBlock \T1/ppl/m/n/10.95 ob-ject and as such re-turn th
+e hid-den \T1/cmtt/m/n/10.95 SourceText \T1/ppl/m/n/10.95 prop-erty. On a sec-o
+nd note \T1/cmtt/m/n/10.95 ModuleBlock
+ []
 
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 47.
+Package pdftex.def Info: cover/jkuen.png  used on input line 42.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
 
-Overfull \hbox (11.72925pt too wide) in paragraph at lines 52--53
+Overfull \hbox (11.72925pt too wide) in paragraph at lines 47--48
 \T1/ppl/m/n/10.95 i-son be-tween mod-ules and mod-ule blocks on im-ple-men-ta-t
 ion level be-hav-ior. 
  []
 
-
-Overfull \hbox (0.64742pt too wide) in paragraph at lines 54--55
-\T1/ppl/m/n/10.95 u-a-tion chap-ter de-tail-ing the test-ing of the as set out 
-above im-ple-men-ta-tion. 
- []
-
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 55.
+Package pdftex.def Info: cover/jkuen.png  used on input line 52.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
-[20]
-<figures/ModuleBlockVSModule.png, id=100, 2012.51875pt x 1209.51875pt>
+[21]
+Overfull \hbox (20.74034pt too wide) in paragraph at lines 55--56
+\T1/ppl/m/n/10.95 eval-u-a-tion chap-ter de-tail-ing the test-ing of the as set
+ out above im-ple-men-ta-tion. 
+ []
+
+<figures/ModuleBlockVSModule.png, id=108, 2012.51875pt x 1209.51875pt>
 File: figures/ModuleBlockVSModule.png Graphic file (type png)
 <use figures/ModuleBlockVSModule.png>
-Package pdftex.def Info: figures/ModuleBlockVSModule.png  used on input line 57
+Package pdftex.def Info: figures/ModuleBlockVSModule.png  used on input line 59
 .
 (pdftex.def)             Requested size: 332.05127pt x 199.56198pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 )
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 16.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [21 <./figures/ModuleBlockVSModule.png>]
+ [22]
+File: cover/jkuen.png Graphic file (type png)
+<use cover/jkuen.png>
+Package pdftex.def Info: cover/jkuen.png  used on input line 16.
+(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
+ [23 <./figures/ModuleBlockVSModule.png>]
 chapter 4.
 (./contents/04_Evaluation.tex
 Overfull \hbox (1.98848pt too wide) in paragraph at lines 1--2
@@ -1620,24 +1642,25 @@ rse of this the-sis.
  []
 
 
-Overfull \hbox (23.216pt too wide) in paragraph at lines 24--25
-\T1/ppl/m/n/10.95 prop-erty. The de-scribed tests are con-ducted by source code
- sim-i-lar to fig-ure 4.2[]. 
+Overfull \hbox (16.95432pt too wide) in paragraph at lines 20--21
+[]\T1/ppl/m/n/10.95 The con-struc-tor of mod-ule blocks ba-si-cally doesn't hav
+e to ex-ist as it sim-ply should throw a \T1/cmtt/m/n/10.95 TypeError\T1/ppl/m/
+n/10.95 .
  []
 
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 25.
+Package pdftex.def Info: cover/jkuen.png  used on input line 21.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
-[22
+[24
 
 ]
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 70.
+Package pdftex.def Info: cover/jkuen.png  used on input line 58.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [23]
-Overfull \hbox (7.35449pt too wide) in paragraph at lines 71--72
+ [25]
+Overfull \hbox (7.35449pt too wide) in paragraph at lines 59--60
 \T1/ppl/m/n/10.95 block mod-ule records are en-cap-su-lated in a promise and ha
 ve to be pro-cessed in a then-environment.
  []
@@ -1647,48 +1670,62 @@ File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 20.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [24]
+ [26]
 chapter 5.
 (./contents/05_FutureWork.tex
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 7.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [25
+ [27
 
 ])
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 24.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [26]
+ [28]
 chapter 6.
 (./contents/06_Conclusions.tex))
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 210.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [27
+ [29
 
 ] (./MAIN.lof)
 \tf@lof=\write5
 \openout5 = `MAIN.lof'.
 
+
+
+Class scrbook Warning: \float@listhead detected!
+(scrbook)              Implementation of \float@listhead became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Maybe implementation of \float@listhead will
+(scrbook)              be removed from KOMA-Script soon.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@listhead interface on input line 211.
+
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 211.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [28
+[30
 
-] (./MAIN.lot)
-\tf@lot=\write6
-\openout6 = `MAIN.lot'.
+] (./MAIN.lol)
+\tf@lol=\write6
+\openout6 = `MAIN.lol'.
 
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 215.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [29
+ [31
 
 ]
 Overfull \hbox (10.11768pt too wide) in paragraph at lines 218--218
@@ -1706,7 +1743,7 @@ File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 217.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
-[30
+[32
 
 
 ]
@@ -1724,28 +1761,25 @@ Overfull \hbox (22.99437pt too wide) in paragraph at lines 218--218
  []
 
 
-Overfull \hbox (19.38863pt too wide) in paragraph at lines 218--218
-\T1/ppl/m/n/10.95 On-ward! 2013. In-di-anapo-lis, In-di-ana, USA: As-so-ci-a-ti
-on for Com-put-ing Ma-chin-ery, 2013, pp. 187^^U
- []
-
-
 AED: lastpage setting LastPage
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 221.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
-[31] (./MAIN.aux (./cover/coversheet.aux))
+[33] (./MAIN.aux (./cover/coversheet.aux))
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'MAIN.run.xml'.
 \openout1 = `MAIN.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24381 strings out of 479023
- 488940 string characters out of 5863351
- 1515329 words of memory out of 5000000
- 41406 multiletter control sequences out of 15000+600000
- 489678 words of font info for 101 fonts, out of 8000000 for 9000
+ 24405 strings out of 479023
+ 489527 string characters out of 5863351
+ 1516407 words of memory out of 5000000
+ 41428 multiletter control sequences out of 15000+600000
+ 496005 words of font info for 117 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  111i,24n,116p,10600b,2331s stack positions out of 5000i,500n,10000p,200000b,80000s
 {e:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{e:/texl
@@ -1759,10 +1793,10 @@ live/2020/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><e:/texlive/2020/
 texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><e:/texlive/2020/texmf-dist/font
 s/type1/urw/palatino/uplr8a.pfb><e:/texlive/2020/texmf-dist/fonts/type1/urw/pal
 atino/uplri8a.pfb>
-Output written on MAIN.pdf (35 pages, 892480 bytes).
+Output written on MAIN.pdf (38 pages, 1331549 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 185 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
