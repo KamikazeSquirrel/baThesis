@@ -401,6 +401,42 @@
       \verb https://github.com/tc39/proposals
       \endverb
     \endentry
+    \entry{HennessyJohnL2007Ca:a}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4a72d9e0de431dadafab463df2ea7b0f}{%
+           family={Hennessy},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Morgan Kaufmann}%
+      }
+      \strng{namehash}{4a72d9e0de431dadafab463df2ea7b0f}
+      \strng{fullhash}{4a72d9e0de431dadafab463df2ea7b0f}
+      \strng{bibnamehash}{4a72d9e0de431dadafab463df2ea7b0f}
+      \strng{authorbibnamehash}{4a72d9e0de431dadafab463df2ea7b0f}
+      \strng{authornamehash}{4a72d9e0de431dadafab463df2ea7b0f}
+      \strng{authorfullhash}{4a72d9e0de431dadafab463df2ea7b0f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4. ed.}
+      \field{isbn}{9780123704900}
+      \field{title}{Computer architecture : a quantitative approach}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb http://media.obvsg.at/AC05695781-1001
+      \endverb
+      \verb{url}
+      \verb http://media.obvsg.at/AC05695781-1001
+      \endverb
+      \keyw{Computer architecture ; Computerarchitektur}
+    \endentry
     \entry{ChambDeopt}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=531728f47c89524d0805ea3cedc9b049}{%

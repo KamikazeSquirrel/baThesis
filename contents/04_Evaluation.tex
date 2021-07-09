@@ -1,3 +1,5 @@
+\subsection{Unit testing}
+
 The presented module blocks implementation which has been embedded inside the Graal.js project, was evaluated by running the provided tests in the project. Those tests represent the Test262 implementation conformance test suite. \cite{ecmaTest262} Since these tests can't cover module block syntax and semantics additional tests were conducted.
 
 The Test262 suite combines the three ecma standards ECMA-262, ECMAScript Language Specification, ECMA-402, ECMAScript Internationalization API Specification and ECMA-404 the JSON Data Interchange Syntax, also known as ISO/IEC 21778. The suite's test files cover any  behavior stated in these specifications and is comprised of around 30.000 individual test files. \cite{ecmaTest262, ecmaTestSpec} Although the test environment is extensive full coverage cannot be guaranteed. It's certain to say that the suite doesn't yet contain any tests that cover module block functionality. This shifts the topic towards the tests that were designed and conducted in the course of this thesis.
@@ -71,3 +73,30 @@ Module blocks can only be imported dynamically with awaits. Since top level awai
     \end{lstlisting}
 
 In conclusion adding a new feature into an engine for ECMAScript requires extensive testing. First of the general preexisting test suite Test262 has to be applied to the changed semantics and have to pass. Then all intricacies of the proposal's specification have to be tested. Although the proposal is a rather syntactic one it still introduces semantics which have to be tested. Next up after all internals are checked the interaction with preexisting ECMAScript structures needs to take place which furthers the extensiveness of testing.
+
+\subsection{Runtime testing}
+
+Runtime testing is required to examine the effect the implementation has on the execution time of code.  Although it is discredited to measure performance with so-called toy programs, it should be mentioned that the aspect of runtime testing in this specific scenario is the mere performance impact a module block call has versus regular function calls. \cite{HennessyJohnL2007Ca:a} Thus creating a real-world example with long runtime or much code is uncalled for and rather has the danger of shadowing the module block call's performance impact. This shadowing roots 
+due to incoherent performance during different runs. This reasoning results in two rather simple benchmark tests.
+
+The general framework takes source code written in JavaScript and creating a context. From the created context, the source is parsed and evaluated multiple times during a warm-up phase. This phase serves the purpose of eliminating performance influence from engine startup amongst other influences. Then the same process, parsing and evaluating, is repeated a predefined amount of times while each run the time it takes is measured. Afterwards a statistical summary of the measured time is built and compared.
+
+The toy example is simple. The reference implementation consists merely of a function call returning \texttt{3+2}. The same goes for the module block implementation. The module block exports \texttt{3} and when the promise of the module block is executed, the exported \texttt{3} is added \texttt{2}. Results show that there is no overhead coming from the module block call. In the contrary, the module block performs faster by a small margin. Figure \ref{fig:bToy} summarizes the results of 50 runs and shows that in comparison to the reference function call the module block implementation runs faster in general but has one outlier being the slowest run of all 100 runs combined.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.7]{figures/runtimesToyBoxplot.png}
+    \caption{Benchmark boxplots for toy example}
+    \label{fig:bToy}
+\end{figure}
+
+The second example implements a simple application of the k-means clustering algorithm.\footnote{The interested reader can find more information on the algorithm in the Journal of the Royal Statistical Society. Series C (Applied Statistics) Vol. 28, No. 1 (1979), pp. 100-108, or as a German source:  https://www-m9.ma.tum.de/material/felix-klein/clustering/Methoden/K-Means.php} The results again show no noticeable performance overhead on the module block's part and thus recreate the findings of the toy example. Figure \ref{fig:bKMeans} summarizes the results of 50 runs and shows that in comparison to the reference runtimes, function calls regularly and from module, show no better performance than the respective module block calls.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.7]{figures/runtimesKMeansBoxplot.png}
+    \caption{Benchmark boxplots for k-means example}
+    \label{fig:bKMeans}
+\end{figure}
+
+Overall it can be summarized that as the two examples show, no explicit performance loss due to module block calls can be noted. The only tendency, that can be noted, is the outliers in the module block cases. Module block code produces significantly more outliers and is thus not as reliable performance-wise as the regular function calls. 
