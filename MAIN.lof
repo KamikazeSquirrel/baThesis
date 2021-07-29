@@ -14,8 +14,8 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Code evaluation by Graal.js}}{19}{}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Simplified GraalJS translation pipeline of module blocks and modules}}{23}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Benchmark boxplots for toy example}}{27}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Benchmark boxplots for k-means example}}{28}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Benchmark boxplots for toy example}}{28}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Benchmark boxplots for k-means example}}{29}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,4 +1,6 @@
-\subsection{Unit testing}
+This chapter lays out the testing in two ways: functional and performance-wise. The functional tests include all relevant aspects of the specification being tested and the performance-wise tests conduct benchmarks with two different code examples.
+
+\section{Unit testing}
 
 The presented module blocks implementation which has been embedded inside the Graal.js project, was evaluated by running the provided tests in the project. Those tests represent the Test262 implementation conformance test suite. \cite{ecmaTest262} Since these tests can't cover module block syntax and semantics additional tests were conducted.
 
@@ -17,7 +19,7 @@ The main orientation for designing tests regarding the module block proposal cam
             { };
     \end{lstlisting}
 
-The first syntactic specialty is the fact that "module", while acting as a keyword in the scope of module blocks, won't be added to the keywords group in ECMAScript. The consequences are random variables being used with "module" as identifier are allowed and line delimiters between \texttt{module} and the \texttt{\{} are forbidden. Since the \texttt{ModuleBody} part of the module block syntax  is optional an empty module like in line three of Listing \ref{fig:testSyntax}. This concludes the three testing cases for the syntax. Next up are tests regarding the prototype and the constructor.
+The first syntactic specialty is the fact that "module", while acting as a keyword in the scope of module blocks, won't be added to the keywords group in ECMAScript. The consequences are random variables being used with "module" as identifier are allowed and line delimiters between \texttt{module} and the \texttt{\{} are forbidden. Since the \texttt{ModuleBody} part of the module block syntax  is optional an empty module like in line three of Listing \ref{fig:testSyntax} is allowed. This concludes the three testing cases for the syntax. Next up are tests regarding the prototype and the constructor.
 
 The constructor of module blocks basically doesn't have to exist as it simply should throw a \texttt{TypeError}. The decision during implementation was made that it actually is implemented but when called throws the specified error. Still it doesn't change the expected behavior and thus a simple call to the constructor is made and expects the aforementioned error. Testing the prototype requires more elaborate testing since multiple aspects need to be checked. Those regard especially the prototype property of the module block prototype object itself but also the module block prototype property. The described tests are conducted by source code similar to Listing \ref{fig:testCoPro}.
 
@@ -58,11 +60,13 @@ The following tests mainly regard the module blocks interaction with different E
 
 A particular case that should also be noted as it raised interest during the proposal presentation is the ability to bundle module imports into a module block which was also tested extensively with importing modules in the different possible ways and also importing module blocks. The specialties of module block imports are explained in the next bit.
 
-Module blocks can only be imported dynamically with awaits. Since top level awaits are not supported dynamic imports have to be encapsulated in async functions. Hence imported module block module records are encapsulated in a promise and have to be processed in a then-environment. Listing \ref{fig:testImp} shows the exact syntax needed for importing the module block.
+Module blocks can only be imported dynamically with awaits. Since top level awaits are not supported dynamic imports have to be encapsulated in async functions. Hence imported module block module records are encapsulated in a promise and have to be processed in a then-environment. Listing \ref{fig:testImp} shows the exact syntax needed for importing the module block as well as an example of the builtin toString function on line 4.
 
     \begin{lstlisting}[caption={Module block dynamic import test}, label={fig:testImp}]
         var test = (async function() {
             var moduleBlock = module { export var x = 42; }; // export number
+            
+            console.log(moduleBlock.toString()); //  module { export var x = 42; }
             
             return await import(moduleBlock);
         })();
@@ -74,12 +78,12 @@ Module blocks can only be imported dynamically with awaits. Since top level awai
 
 In conclusion adding a new feature into an engine for ECMAScript requires extensive testing. First of the general preexisting test suite Test262 has to be applied to the changed semantics and have to pass. Then all intricacies of the proposal's specification have to be tested. Although the proposal is a rather syntactic one it still introduces semantics which have to be tested. Next up after all internals are checked the interaction with preexisting ECMAScript structures needs to take place which furthers the extensiveness of testing.
 
-\subsection{Runtime testing}
+\section{Runtime testing}
 
 Runtime testing is required to examine the effect the implementation has on the execution time of code.  Although it is discredited to measure performance with so-called toy programs, it should be mentioned that the aspect of runtime testing in this specific scenario is the mere performance impact a module block call has versus regular function calls. \cite{HennessyJohnL2007Ca:a} Thus creating a real-world example with long runtime or much code is uncalled for and rather has the danger of shadowing the module block call's performance impact. This shadowing roots 
 due to incoherent performance during different runs. This reasoning results in two rather simple benchmark tests.
 
-The general framework takes source code written in JavaScript and creating a context. From the created context, the source is parsed and evaluated multiple times during a warm-up phase. This phase serves the purpose of eliminating performance influence from engine startup amongst other influences. Then the same process, parsing and evaluating, is repeated a predefined amount of times while each run the time it takes is measured. Afterwards a statistical summary of the measured time is built and compared.
+The general framework takes source code written in JavaScript and creating a context. From the created context, the source is parsed and evaluated multiple times during a warm-up phase, in this case 20 runs. This phase serves the purpose of eliminating performance influence from engine startup amongst other influences. Then the same process, parsing and evaluating, is repeated a predefined amount of times while each run the time it takes is measured. Afterwards a statistical summary of the measured time is built and compared.
 
 The toy example is simple. The reference implementation consists merely of a function call returning \texttt{3+2}. The same goes for the module block implementation. The module block exports \texttt{3} and when the promise of the module block is executed, the exported \texttt{3} is added \texttt{2}. Results show that there is no overhead coming from the module block call. In the contrary, the module block performs faster by a small margin. Figure \ref{fig:bToy} summarizes the results of 50 runs and shows that in comparison to the reference function call the module block implementation runs faster in general but has one outlier being the slowest run of all 100 runs combined.
 
@@ -99,4 +103,4 @@ The second example implements a simple application of the k-means clustering alg
     \label{fig:bKMeans}
 \end{figure}
 
-Overall it can be summarized that as the two examples show, no explicit performance loss due to module block calls can be noted. The only tendency, that can be noted, is the outliers in the module block cases. Module block code produces significantly more outliers and is thus not as reliable performance-wise as the regular function calls. 
+The benchmarks were conducted on a PC with Windows 10, an Intel 3700K i7 processor and 16 GB RAM. Overall it can be summarized that as the two examples show, no explicit performance loss due to module block calls can be noted. The only tendency, that can be noted, is the outliers in the module block cases. Module block code produces significantly more outliers and is thus not as reliable performance-wise as the regular function calls. 

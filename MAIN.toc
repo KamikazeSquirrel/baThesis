@@ -28,8 +28,8 @@
 \contentsline {section}{\numberline {3.6}Serialization framework}{21}{}%
 \contentsline {section}{\numberline {3.7}Wrap up}{22}{}%
 \contentsline {chapter}{\numberline {4}Evaluation}{24}{}%
-\contentsline {subsection}{\numberline {4.0.1}Unit testing}{24}{}%
-\contentsline {subsection}{\numberline {4.0.2}Runtime testing}{26}{}%
-\contentsline {chapter}{\numberline {5}Future Work}{29}{}%
-\contentsline {chapter}{\numberline {6}Conclusions}{31}{}%
+\contentsline {section}{\numberline {4.1}Unit testing}{24}{}%
+\contentsline {section}{\numberline {4.2}Runtime testing}{26}{}%
+\contentsline {chapter}{\numberline {5}Future Work}{30}{}%
+\contentsline {chapter}{\numberline {6}Conclusions}{32}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
