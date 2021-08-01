@@ -9,13 +9,13 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The Java Virtual Machine simplified structure}}{7}{}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The Graal Virtual Machine simplified structure}}{11}{}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Simplified Node Rewriting example}}{12}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Syntax of Module Blocks and ES6 Modules}}{17}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Syntax of Module Blocks and ES6 Modules}}{18}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Code evaluation by Graal.js}}{19}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Simplified GraalJS translation pipeline of module blocks and modules}}{23}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Code evaluation by Graal.js}}{20}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Simplified Graal.js translation pipeline of module blocks and modules}}{24}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Benchmark boxplots for toy example}}{28}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Benchmark boxplots for k-means example}}{29}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Benchmark boxplots for toy example}}{29}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Benchmark boxplots for k-means example}}{31}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

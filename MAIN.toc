@@ -13,23 +13,25 @@
 \contentsline {subsubsection}{\nonumberline Runtime Data Area}{8}{}%
 \contentsline {subsubsection}{\nonumberline Execution Engine}{9}{}%
 \contentsline {section}{\numberline {2.2}GraalVM}{10}{}%
-\contentsline {subsection}{\numberline {2.2.1}GraalVM Compiler}{11}{}%
+\contentsline {subsection}{\numberline {2.2.1}GraalVM Compiler}{12}{}%
 \contentsline {subsection}{\numberline {2.2.2}Truffle API}{12}{}%
-\contentsline {section}{\numberline {2.3}Graal.js}{14}{}%
+\contentsline {section}{\numberline {2.3}Graal.js}{15}{}%
 \contentsline {section}{\numberline {2.4}ECMAScript \& the current state of modules}{15}{}%
 \contentsline {section}{\numberline {2.5}ECMAScript proposal process}{16}{}%
 \contentsline {section}{\numberline {2.6}Proposal: Module blocks}{17}{}%
-\contentsline {chapter}{\numberline {3}Implementation}{18}{}%
-\contentsline {section}{\numberline {3.1}General overview}{18}{}%
-\contentsline {section}{\numberline {3.2}Parser}{19}{}%
-\contentsline {section}{\numberline {3.3}ModuleBlockNode: Module Blocks' Truffle AST representative}{20}{}%
-\contentsline {section}{\numberline {3.4}ModuleBlock prototype and constructor}{20}{}%
-\contentsline {section}{\numberline {3.5}Interaction with dynamic import}{21}{}%
-\contentsline {section}{\numberline {3.6}Serialization framework}{21}{}%
-\contentsline {section}{\numberline {3.7}Wrap up}{22}{}%
-\contentsline {chapter}{\numberline {4}Evaluation}{24}{}%
-\contentsline {section}{\numberline {4.1}Unit testing}{24}{}%
-\contentsline {section}{\numberline {4.2}Runtime testing}{26}{}%
-\contentsline {chapter}{\numberline {5}Future Work}{30}{}%
-\contentsline {chapter}{\numberline {6}Conclusions}{32}{}%
+\contentsline {chapter}{\numberline {3}Implementation}{19}{}%
+\contentsline {section}{\numberline {3.1}General overview}{19}{}%
+\contentsline {section}{\numberline {3.2}Parser}{20}{}%
+\contentsline {section}{\numberline {3.3}ModuleBlockNode: Module Blocks' Truffle AST representative}{21}{}%
+\contentsline {section}{\numberline {3.4}ModuleBlock prototype and constructor}{21}{}%
+\contentsline {section}{\numberline {3.5}Interaction with dynamic import}{22}{}%
+\contentsline {section}{\numberline {3.6}Serialization framework}{23}{}%
+\contentsline {section}{\numberline {3.7}Wrap up}{23}{}%
+\contentsline {chapter}{\numberline {4}Evaluation}{25}{}%
+\contentsline {section}{\numberline {4.1}Functional testing}{25}{}%
+\contentsline {section}{\numberline {4.2}Performance evaluation}{28}{}%
+\contentsline {subsection}{\numberline {4.2.1}Toy example}{28}{}%
+\contentsline {subsection}{\numberline {4.2.2}k-means}{30}{}%
+\contentsline {chapter}{\numberline {5}Future Work}{32}{}%
+\contentsline {chapter}{\numberline {6}Conclusions}{34}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

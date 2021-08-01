@@ -703,6 +703,22 @@
       \verb https://jaxenter.com/graalvm-chris-thalinger-interview-163074.html
       \endverb
     \endentry
+    \entry{nodejs}{online}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeltitlesource}{title}
+      \field{title}{Node.js v16.6.0 documentation}
+      \field{urlday}{1}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nodejs.org/api/worker_threads.html
+      \endverb
+      \verb{url}
+      \verb https://nodejs.org/api/worker_threads.html
+      \endverb
+    \endentry
     \entry{pCode}{online}{}
       \field{sortinit}{p}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
@@ -893,6 +909,36 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1145/2480360.2384587
+      \endverb
+    \endentry
+    \entry{facebook}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fad759c77d943b71f2db74e9bd127367}{%
+           family={Yurenko},
+           familyi={Y\bibinitperiod},
+           given={Alina},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fad759c77d943b71f2db74e9bd127367}
+      \strng{fullhash}{fad759c77d943b71f2db74e9bd127367}
+      \strng{bibnamehash}{fad759c77d943b71f2db74e9bd127367}
+      \strng{authorbibnamehash}{fad759c77d943b71f2db74e9bd127367}
+      \strng{authornamehash}{fad759c77d943b71f2db74e9bd127367}
+      \strng{authorfullhash}{fad759c77d943b71f2db74e9bd127367}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GraalVM at Facebook}
+      \field{urlday}{1}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/graalvm/graalvm-at-facebook-af09338ac519
+      \endverb
+      \verb{url}
+      \verb https://medium.com/graalvm/graalvm-at-facebook-af09338ac519
       \endverb
     \endentry
   \enddatalist
