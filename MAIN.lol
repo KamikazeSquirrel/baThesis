@@ -4,6 +4,7 @@
 \addvspace {10\p@ }
 \contentsline {lstlisting}{\numberline {3.1}Minimal module identifier example in JavaScript}{20}{}%
 \contentsline {lstlisting}{\numberline {3.2}ModuleBlock working as global in JavaScript}{21}{}%
+\contentsline {lstlisting}{\numberline {3.3}ModuleBlock serialization / deserialization}{23}{}%
 \addvspace {10\p@ }
 \contentsline {lstlisting}{\numberline {4.1}Module block syntax tests}{25}{}%
 \contentsline {lstlisting}{\numberline {4.2}Module block constructor and prototype tests}{26}{}%

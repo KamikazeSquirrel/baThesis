@@ -9,7 +9,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The Java Virtual Machine simplified structure}}{7}{}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The Graal Virtual Machine simplified structure}}{11}{}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Simplified Node Rewriting example}}{12}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Syntax of Module Blocks and ES6 Modules}}{18}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Syntax of Module Blocks and ES6 Modules}}{17}{}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Code evaluation by Graal.js}}{20}{}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Simplified Graal.js translation pipeline of module blocks and modules}}{24}{}%
