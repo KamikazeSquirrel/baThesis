@@ -2,7 +2,7 @@
 
 This repository is for my bachelor thesis with title "Contributing the ECMAScript proposal "Module blocks" to Graal.Js".
 
-Current state is first draft of the whole thesis missing serialization.
+Current state: Final draft, submission on 08.04.20221
 
 ## Reading
 
