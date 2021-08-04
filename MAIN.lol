@@ -1,6 +1,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {lstlisting}{\numberline {2.1}JavaScript addition types minimal example}{13}{}%
+\contentsline {lstlisting}{\numberline {2.2}Module block example}{18}{}%
 \addvspace {10\p@ }
 \contentsline {lstlisting}{\numberline {3.1}Minimal module identifier example in JavaScript}{20}{}%
 \contentsline {lstlisting}{\numberline {3.2}ModuleBlock working as global in JavaScript}{21}{}%

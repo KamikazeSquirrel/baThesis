@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.7)  3 AUG 2021 19:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.7)  4 AUG 2021 13:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1387,7 +1387,7 @@ Package pdftex.def Info: cover/jkuen.png  used on input line 6.
 ]
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 13.
+Package pdftex.def Info: cover/jkuen.png  used on input line 12.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
  [2])
 File: cover/jkuen.png Graphic file (type png)
@@ -1487,7 +1487,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
 
 Overfull \hbox (8.772pt too wide) in paragraph at lines 117--118
 \T1/ppl/m/n/10.95 Af-ter this step the newly spe-cial-ized AST might be com-pil
-ed again later [29]. 
+ed again later [32]. 
  []
 
 File: cover/jkuen.png Graphic file (type png)
@@ -1500,6 +1500,12 @@ File: cover/jkuen.png Graphic file (type png)
 Package pdftex.def Info: cover/jkuen.png  used on input line 144.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
  [14]
+Overfull \hbox (5.22462pt too wide) in paragraph at lines 146--147
+\T1/ppl/m/n/10.95 spe-cific lan-guage fea-ture that hadn't been sup-ported ini-
+tially is the mod-ule. 
+ []
+
+
 Overfull \hbox (9.63783pt too wide) in paragraph at lines 150--151
 \T1/ppl/m/n/10.95 MAScript spec-i-fi-ca-tion be-ing able to be ex-e-cuted acros
 s browser bound-aries. 
@@ -1525,12 +1531,11 @@ File: figures/ModuleSyntax.png Graphic file (type png)
 <use figures/ModuleSyntax.png>
 Package pdftex.def Info: figures/ModuleSyntax.png  used on input line 168.
 (pdftex.def)             Requested size: 289.15785pt x 149.54727pt.
-)
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
-Package pdftex.def Info: cover/jkuen.png  used on input line 12.
+Package pdftex.def Info: cover/jkuen.png  used on input line 175.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
- [17 <./figures/ModuleSyntax.png>]
+ [17 <./figures/ModuleSyntax.png>])
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 12.
@@ -1626,9 +1631,8 @@ File: cover/jkuen.png Graphic file (type png)
 Package pdftex.def Info: cover/jkuen.png  used on input line 53.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
  [26]
-Underfull \hbox (badness 3579) in paragraph at lines 63--64
-\T1/ppl/m/n/10.95 block mod-ule records are en-cap-su-lated in a promise and ha
-ve to be pro-cessed in a
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+\T1/ppl/m/n/10.95 cap-su-lated in a promise and have to be pro-cessed in a
  []
 
 File: cover/jkuen.png Graphic file (type png)
@@ -1761,28 +1765,39 @@ sc/10.95 url\T1/ppl/m/n/10.95 : $\T1/cmtt/m/n/10.95 https : / / www . graalvm .
  []
 
 
+Overfull \hbox (9.81473pt too wide) in paragraph at lines 221--221
+[]\T1/ppl/m/it/10.95 Oracle Database 21c\T1/ppl/m/n/10.95 . \T1/ppl/m/sc/10.95 
+url\T1/ppl/m/n/10.95 : $\T1/cmtt/m/n/10.95 https : / / docs . oracle . com / en
+ / database / oracle / oracle -[] database /
+ []
+
+
 Overfull \hbox (22.99437pt too wide) in paragraph at lines 221--221
 []\T1/ppl/m/it/10.95 Test262: EC-MAScript Test Suite\T1/ppl/m/n/10.95 . \T1/ppl
 /m/sc/10.95 url\T1/ppl/m/n/10.95 : $\T1/cmtt/m/n/10.95 https : / / github . com
  / tc39 / test262$ \T1/ppl/m/n/10.95 (vis-ited on 06/10/2021). 
  []
 
-
+File: cover/jkuen.png Graphic file (type png)
+<use cover/jkuen.png>
+Package pdftex.def Info: cover/jkuen.png  used on input line 220.
+(pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
+[38] 
 AED: lastpage setting LastPage
 File: cover/jkuen.png Graphic file (type png)
 <use cover/jkuen.png>
 Package pdftex.def Info: cover/jkuen.png  used on input line 224.
 (pdftex.def)             Requested size: 85.35826pt x 41.9339pt.
-[38] (./MAIN.aux (./cover/coversheet.aux))
+[39] (./MAIN.aux (./cover/coversheet.aux))
 Package logreq Info: Writing requests to 'MAIN.run.xml'.
 \openout1 = `MAIN.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24456 strings out of 479023
- 490615 string characters out of 5863351
- 1498648 words of memory out of 5000000
- 41479 multiletter control sequences out of 15000+600000
+ 24466 strings out of 479023
+ 490911 string characters out of 5863351
+ 1498798 words of memory out of 5000000
+ 41489 multiletter control sequences out of 15000+600000
  494556 words of font info for 115 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  111i,24n,116p,10600b,2351s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1796,10 +1811,10 @@ fb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb><e:/tex
 live/2020/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><e:/texlive/2020/
 texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><e:/texlive/2020/texmf-dist/font
 s/type1/urw/palatino/uplri8a.pfb>
-Output written on MAIN.pdf (43 pages, 1348776 bytes).
+Output written on MAIN.pdf (44 pages, 1351439 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 204 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

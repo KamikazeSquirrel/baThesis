@@ -60,7 +60,7 @@ The following tests mainly regard the module blocks interaction with different E
 
 A particular case that should also be noted as it raised interest during the proposal presentation is the ability to bundle module imports into a module block which was also tested extensively with importing modules in the different possible ways and also importing module blocks. The specialties of module block imports are explained in the next bit.
 
-Module blocks can only be imported dynamically with awaits. Since top level awaits are not supported dynamic imports have to be encapsulated in async functions. Hence imported module block module records are encapsulated in a promise and have to be processed in a \linebreak then-environment. Listing \ref{fig:testImp} shows the exact syntax needed for importing the module block as well as an example of the builtin toString function on line 4.
+Module blocks can only be imported dynamically with awaits. Since top level awaits are only supported behind a flag in Graal.js dynamic imports are encapsulated in async functions in this testing environment to avoid using too many flags. Hence imported module block module records are encapsulated in a promise and have to be processed in a \linebreak then-environment. Listing \ref{fig:testImp} shows the exact syntax needed for importing the module block as well as an example of the builtin toString function on line 4.
 
     \begin{lstlisting}[caption={Module block dynamic import test}, label={fig:testImp}]
         var test = (async function() {
@@ -152,4 +152,4 @@ The general code setup for the module block example is shown in Listing \ref{fig
     \label{fig:bKMeans}
 \end{figure}
 \pagebreak
-The benchmarks were conducted on a PC with Windows 10, an Intel 3700K i7 processor and 16 GB RAM. Overall it can be summarized that as the two examples show, no explicit performance loss due to module block calls can be noted. The only tendency, that can be noted, is the outliers in the module block cases. Module block code produces significantly more outliers and is thus not as reliable performance-wise as the regular function calls. 
+The benchmarks were conducted on a PC with Windows 10, an Intel 3700K i7 processor and 16 GB RAM. As engine the GraalVM Community 21.2.0 based on Java 11 was used. Overall it can be summarized that as the two examples show, no explicit performance loss due to module block calls can be noted. The only tendency, that can be noted, is the outliers in the module block cases. Module block code produces significantly more outliers and is thus not as reliable performance-wise as the regular function calls. 

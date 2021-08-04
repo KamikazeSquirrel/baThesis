@@ -19,6 +19,22 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{babel}{online}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeltitlesource}{title}
+      \field{title}{Babel}
+      \field{urlday}{4}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://babeljs.io/
+      \endverb
+      \verb{url}
+      \verb https://babeljs.io/
+      \endverb
+    \endentry
     \entry{pypl}{online}{}
       \name{author}{1}{}{%
         {{hash=bd493fcefd6ae3eee8905b34f25193bc}{%
@@ -717,6 +733,38 @@
       \endverb
       \verb{url}
       \verb https://nodejs.org/api/worker_threads.html
+      \endverb
+    \endentry
+    \entry{openjdk}{online}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeltitlesource}{title}
+      \field{title}{OpenJDK}
+      \field{urlday}{4}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://openjdk.java.net/
+      \endverb
+      \verb{url}
+      \verb https://openjdk.java.net/
+      \endverb
+    \endentry
+    \entry{oracleDatabase}{online}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeltitlesource}{title}
+      \field{title}{Oracle Database 21c}
+      \field{urlday}{4}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.oracle.com/en/database/oracle/oracle-database/21/index.html
+      \endverb
+      \verb{url}
+      \verb https://docs.oracle.com/en/database/oracle/oracle-database/21/index.html
       \endverb
     \endentry
     \entry{pCode}{online}{}
